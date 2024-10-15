@@ -1,0 +1,346 @@
+/*Comment: Webpage2 index css document: index.css */
+/* Comment: css BEGIN */
+
+
+/* remove all browser default margin and padding
+*{
+	margin:0;
+	padding:0;
+}
+*/
+
+
+
+/*
+MAIN BODY FOR INDEX STYLES AND STRUCTURE
+READY FOR TESTING
+*/
+
+/*
+TESTING DIFFERENT PARAGRAPH BOXES WITH FLOATS
+*/
+
+
+
+/*
+SET MAIN BODY BASIC STRUCTURES
+light or white backgroundcolor
+lightgray or gray text color
+*/
+body{
+	background-color:whitesmoke; /* try lightgray or white #fff or #f4f4f4 */
+	color:gray; /* this defines body base text color */
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:normal;
+	/* same as above*/
+	font: normal 16px Arial, Helvetica, sans-serif;
+	
+	line-height:1.6em; /* try 3px*/
+
+	margin:0;
+}
+
+
+
+/*
+HYPERLINK STYLES FOR INDEX
+*/
+a{
+	text-decoration:none;
+	color:#000; /* same as black just abreviation */
+}
+
+a:hover{
+	color:red;
+}
+
+a:active{
+	color:green;
+}
+
+a:visited{
+	color:coral;
+}
+
+
+
+/*
+MAIN DIV STRUCTURE CONTAINER
+SET HOW DOCUMENT REACTS TO SCREENSIZE
+make dynamic for better view with different devices
+*/
+.container{
+	width: 80%; /* try 500px or 960px not responsive */
+	margin:auto;
+}
+
+
+
+
+/*
+SET BUTTON STYLE FOR ALL BUTTON CLASS BUTTONS
+dark button with white text
+*/
+.button{
+	background-color:#333; /* cool really dark background color for button */
+	color:#fff; /* text color for button #fff is white */
+	padding: 10px 15px;
+	border:none;
+}
+
+.button:hover{
+	background:red;
+	color:#fff;
+}
+
+
+
+/*
+SET BOX1 STRUCTURE AND APPEARANCE
+darkgray background with white text
+solid red borders
+looking cool and heavy
+*/
+.box-1{
+	background-color:#333; /* try darkgray or #333*/
+	color:white; /* try #fff */
+	
+	border-right:5px red solid;
+	border-left:5px red solid;
+	border-top:5px red solid;
+	border-bottom:5px red solid;
+	/* same as above*/
+	border: 5px red solid;
+	border-width:3px;
+	border-bottom-width:10px;
+	border-top-style:dotted;
+
+	border: 5px red solid;
+	
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:20px;
+	padding-left:20px;
+	/* same as above*/
+	padding:20px;
+	
+	margin-top: 20px;
+	margin:20px 0;
+}
+
+.box-1 h1{
+	font-family:Tahoma;
+	font-weight:800;
+	font-style:italic;
+	text-decoration: underline;
+	text-transform:uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+}
+
+
+
+
+/*
+SET BOX2 STRUCTURE AND APPEARANCE
+same background and text as body
+nice light dotted border
+*/
+.box-2{
+	border:3px dotted #ccc; /* try lightgray #ccc */
+	padding:20px;
+	margin:20px 0;
+}
+
+
+
+
+
+
+
+/*
+SET BOX3 STRUCTURE AND APPEARANCE
+*/
+.categories{ /* border and padding around this div */
+	border:1px #ccc solid;
+	padding:10px;
+	border-radius:15px;
+}
+
+.categories h2{ /* heading centering */
+	text-align:center;
+}
+
+.categories ul{ /* list styles */
+	padding:0;
+	padding-left:20px;
+	list-style:square; /* square infront of list item unless overwriten later */
+	list-style:none; /* overwrites square */
+}
+
+.categories li{ /* list items dotted border to bottom and image */
+	padding-bottom:6px;
+	border-bottom:dotted 1px #333;
+	list-style-image:url('../images/check_small.png'); /* puts image before list item */
+}
+
+
+/*
+FORM
+NO DIV
+ACTS AS ITS OWN DIV
+*/
+
+.my-form{ /* some padding around try some borders too */
+	padding:20px; /* some padding around this class element */
+	border:dotted 3px #333; /* some nice border to try */
+	margin: 10px /* some margin to push this away from other elements */
+}
+
+.my-form .form-group{
+	padding-bottom:15px;
+	margin-right: 10px; /* make sure input boxes wont touch right border */
+}
+
+.my-form label{
+	display:block; /* what does this do? creates element as block element */
+}
+
+.my-form input[type="text"], .my-form input[type="email"], .my-form textarea{
+	padding:8px;
+	width:100%;
+}
+
+
+
+/*
+SET BOX4 CALLED BLOCK STRUCTURE AND APPEARANCE
+there are 3 boxes and they float from left to right
+*/
+.block{
+	float:left;
+	width:33.3%;
+	border:1px solid #ccc;
+	padding:10px;
+	box-sizing:border-box;
+	/* makes boxes fit the width by taking border and padding inside */
+}
+
+.clearFix{
+	clear:both;
+}
+
+
+
+
+
+
+/*
+SET BOX5 CALLED MAIN-BLOCK STRUCTURE AND APPEARANCE
+floating on the left dynamically
+*/
+#main-block{
+	float:left;
+	width:70%;
+}
+
+
+/*
+SET BOX6 CALLED MAIN-BLOCK STRUCTURE AND APPEARANCE
+floating on the right dynamically
+*/
+#sidebar{
+	float:right;
+	width:30%;
+	background-color:#333;
+	color:#fff;
+	padding:15px;
+	box-sizing:border-box;
+}
+
+
+
+
+/*
+SET BOX7 CALLED MAIN-BLOCK STRUCTURE AND APPEARANCE
+this box7 has picture as background and to headins inside
+*/
+.p-box{
+	width:800px;
+	height:500px;
+	border:1px solid #000;
+	margin-top:30px;
+	position:relative;
+	background-image:url('../images/Light_Abstract.jpg');
+	background-repeat: no-repeat;
+	background-position:100px 200px;
+	/* try variations center top bottom left right */
+	background-position:center center;
+}
+
+/* BOX7 HEADING 1 */
+.p-box h1{
+	position:absolute;
+	top:100px;
+	left:200px;
+}
+
+/* BOX7 HEADING 2 */
+.p-box h2{
+	position:absolute;
+	bottom:40px;
+	right:100px;
+}
+
+
+
+
+/* BOX MYLIST */
+/* try some padding margin borders */
+.my-list{
+	padding:20px;
+	margin:20px;
+	width:70%;
+	border:1px solid #000;
+	border-radius:15px;
+}
+
+.my-list li:first-child{
+	background-color:red;
+	background: green;
+}
+
+.my-list li:last-child{
+	background: blue;
+}
+
+.my-list li:nth-child(5){
+	background: yellow;
+}
+
+.my-list li:nth-child(even){
+	background: grey;
+}
+
+
+
+/* BUTTON ON THE LEFT SIDE WITH FIXED POSITION */
+.fix-me{
+	position:fixed;
+	top:400px;
+}
+
+.backtotop{
+	margin-left:70px;
+	margin-top:50px;
+}
+
+
+
+
+
+
+
+/* Comment: css END */

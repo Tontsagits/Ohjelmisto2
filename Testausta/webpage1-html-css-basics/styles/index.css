@@ -1,0 +1,158 @@
+/* Comment: Webpage1 index css document: index.css */
+/* Comment: css BEGIN */
+
+/*
+	Comment: main container
+	styles: header, aside, footer
+	body styles in index.html
+*/
+
+header {
+	border: 1px solid red;
+	padding-left: 15px;
+	margin-left: 0px;
+	padding-right: 15px;
+	margin-right: 0px;
+	font-style: normal;
+	background-color: red;
+}
+
+aside {
+	border: 1px solid red;
+	width: 100px;
+	height: 400px;
+	padding-left: 15px;
+	margin-left: 0px;
+	padding-right: 15px;
+	margin-right: 10px;
+	float: left;
+	font-style: normal;
+	background-color: darkgray;
+	overflow: hidden;
+}
+
+footer {
+	border: 1px solid red;
+	padding-left: 15px;
+	margin-left: 0px;
+	padding-right: 15px;
+	margin-right: 0px;
+	font-style: normal;
+	background-color: red;
+}
+
+
+/*
+	Comment: main container styles: div
+			paragraph styles inside div
+	body styles in index.html
+*/
+
+div.main-container {
+	border: 1px solid red;
+	padding-left: 15px;
+	margin-left: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
+	font-style: normal;
+	overflow: visible;
+	background-color: lightgray;
+}
+
+p.main_paras {
+	border: 0px solid red;
+	padding-left: 0px;
+	margin-left: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
+	padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+/*
+	Comment: images located in body inside div containers
+*/
+
+/*
+	MAIN IMAGE located float right top
+	READY FOR TESTING
+*/
+
+#main_image {
+	float: right;
+	border: 1px solid red;
+	padding-left: 0px;
+	margin-left: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
+/*	position: absolute;
+	top: 50px;
+	left: 500px;
+	z-index: -1;
+*/
+}
+
+
+
+
+/*
+	Comment: parent child elements
+*/
+
+/*
+	PARA IMAGE located inside Paragraph HTML Element
+	READY FOR TESTING
+*/
+
+
+#para_image {
+	border: 1px solid red;
+	padding-left: 0px;
+	margin-left: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
+	position: relative;
+	left: 100px;
+}
+
+
+
+
+
+
+
+
+
+/*
+	Comment: interactive content styles: anchors
+*/
+
+
+a {
+	color: black;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: italic;
+}
+
+a:hover {
+	color: black;
+	font-weight: bold;
+	font-style: italic;
+}
+
+a:visited {
+	color: black;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: italic;
+}
+
+
+/* Comment: css END */

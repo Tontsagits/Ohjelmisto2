@@ -1,0 +1,185 @@
+/*Comment: Webpage2 blog css document: blog.css */
+/* Comment: css BEGIN */
+
+
+
+/*
+	SETTING UP BODY BASICS
+	BACKGROUND WHITE
+	TEXT COLOR GRAY
+ */
+body{
+	background-color:#f4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+/* navbar link graphics setup */
+body a{
+	color:#000;
+	text-decoration:none;
+	font-size:18px;
+	padding-right:15px;
+	padding-left:30px;
+}
+
+body a:hover{
+	color:red;
+	text-decoration:none;
+	font-size:18px;
+	padding-right:15px;
+	padding-left:30px;
+}
+
+
+
+/*
+ALL CONTAINER ELEMENTS ARE 80% WIDTH
+WITH AUTOMATIC MARGIN by browser
+AND OVERFLOW is HIDDEN if content from element
+        goes over borders it is hidden with no scrollbar
+*/
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+
+/* SETUP HEADER COLORS DIFFERENT FROM BODY BASICS */
+#main-header{
+	background-color:coral;
+	color:#fff;
+}
+
+
+/* SETUP NAVBAR COLORS DIFFERENT FROM BODY BASICS */
+#navbar{
+	background-color:#333;
+	color:#fff;
+}
+
+#navbar ul{
+	padding:0;
+	list-style:none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+
+/* navbar link graphics setup */
+#navbar a{
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+#navbar a:hover{
+	color:red;
+	text-decoration:none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+
+/*
+SETUP SPECIAL CONTENT BOX OVER/TOP BLOG POSTS
+WITH BACKGROUND IMAGE INSTEAD OF COLOR
+*/
+#showcase{
+	background-image:url('../images/light-blue-abstract.jpg');
+	background-position:center right;
+	min-height:300px;
+	margin-bottom:30px;
+	text-align:center;
+}
+
+#showcase h1{
+	color;#fff;
+	font-size:50px;
+	line-height:1.6em;
+	padding-top:30px;
+}
+
+
+/*
+SETUP MAIN CONTENT BOX
+FLOATING ON THE LEFT
+WITH 70% WIDTH AND BORDERS INSIDE
+NO BACKGROUND COLOR SO TAKES COLOR FROM BODY BASICS
+*/
+#main{
+	float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing:border-box;
+}
+
+
+/*
+SETUP ASIDE SIDE BOX FOR ADDON CONTENT BESIDES MAIN DIV BOX BLOG CONTENT
+FLOATING ON THE RIGHT
+WITH 30% WIDTH AND BORDERS INSIDE
+HAS BACKGROUND COLOR DIFFERENT FROM BODY BASICS
+*/
+#sidebar{
+	float:right;
+	width:30%;
+	background:#333;
+	color:#fff;
+	padding:10px;
+	box-sizing:border-box;
+}
+
+.clearfx{
+	clear:both;
+}
+
+
+#backtotop{
+	margin-left:20px;
+	padding-left:20px;
+}
+
+
+
+/*
+SETUP FOOTER
+*/
+#mn-footer{
+	background:#333;
+	color:#fff;
+	text-align:center;
+	padding:20px;
+	margin-top:40px;
+}
+
+
+
+/*
+WHAT IS THIS?
+MEDIA RULE IS FOR DIFFERENT VIEWING SIZE DEVICES
+THIS RULE IS FOR 600px VIEWING
+MAKE MAIN CONTENT FULL WIDTH
+AND MAKE SIDEBAR FULL WIDTH
+IF UNDER 600PX VIEWER
+*/
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+}
+
+
+/* Comment: css END */

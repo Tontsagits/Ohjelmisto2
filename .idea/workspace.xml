@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML/my-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Testausta/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/my-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/my-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728984650181</updated>
       <workItem from="1728984651312" duration="65000" />
-      <workItem from="1728985048167" duration="312000" />
+      <workItem from="1728985048167" duration="580000" />
     </task>
     <servers />
   </component>
