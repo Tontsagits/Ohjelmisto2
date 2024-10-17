@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Testausta/webpage2-html-css-blog/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/Testausta/webpage2-html-css-blog/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testausta/webpage2-html-css-blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Testausta/webpage2-html-css-blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testausta/webpage3-css-flex-grid/flexboxmodel.html" beforeDir="false" afterPath="$PROJECT_DIR$/Testausta/webpage3-css-flex-grid/flexboxmodel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testausta/webpage3-css-flex-grid/index1_grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/Testausta/webpage3-css-flex-grid/index1_grid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testausta/webpage3-css-flex-grid/index2_grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/Testausta/webpage3-css-flex-grid/index2_grid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testausta/webpage3-css-flex-grid/index3_grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/Testausta/webpage3-css-flex-grid/index3_grid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testausta/webpage4-css-flex-grid/flexboxmodel.html" beforeDir="false" afterPath="$PROJECT_DIR$/Testausta/webpage4-css-flex-grid/flexboxmodel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testausta/webpage4-css-flex-grid/gridmodel1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Testausta/webpage4-css-flex-grid/gridmodel1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testausta/webpage4-css-flex-grid/gridmodel2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Testausta/webpage4-css-flex-grid/gridmodel2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testausta/webpage5-flexbox/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testausta/webpage5-flexbox/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +69,7 @@
       <workItem from="1728985993710" duration="3710000" />
       <workItem from="1728998720631" duration="765000" />
       <workItem from="1729160901332" duration="232000" />
-      <workItem from="1729161421700" duration="638000" />
+      <workItem from="1729161421700" duration="3396000" />
     </task>
     <servers />
   </component>
