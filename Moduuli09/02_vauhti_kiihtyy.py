@@ -1,11 +1,14 @@
 # Ohjelmisto 2 - Moduuli 9 - Tehtävä 2 - Auton vauhti muuttuu
 
 class Auto:
+
     def __init__(self, rekisteritunnus: str, huippunopeus: int, nopeus=0, kuljettumatka=0):
         self.rekisteritunnus = rekisteritunnus
         self.huippunopeus = huippunopeus
         self.nopeus = nopeus
         self.kuljettumatka = kuljettumatka
+        print("Auto lisätty.")
+
     def kiihdytä(self, nopmuutos: int):
         if nopmuutos < 0:
             print(f"Auto muuttaa nopeuttaan {nopmuutos} km/h.")
