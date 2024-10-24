@@ -1,4 +1,4 @@
-# Ohjelmisto 2 - Moduuli 9 - Tehtävä 2 - Auton vauhti muuttuu
+# Ohjelmisto 2 - Moduuli 9 - Tehtävä 3 - Auto kulkee
 
 class Auto:
 
