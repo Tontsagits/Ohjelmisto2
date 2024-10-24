@@ -1,2 +1,0 @@
-# Testing Object and Class
-
