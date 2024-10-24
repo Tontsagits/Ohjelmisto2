@@ -27,7 +27,6 @@ class Auto:
             self.nopeus = self.huippunopeus
 
 turbosaabi = Auto("ABC-123", 142)
-
 print(f"Auton tiedot\nRekisteritunnus: {turbosaabi.rekisteritunnus:s}\nHuippunopeus: {turbosaabi.huippunopeus}\nNopeus nyt: {turbosaabi.nopeus}\nKuljettu matka: {turbosaabi.kuljettumatka}")
 
 turbosaabi.kiihdytä(30)

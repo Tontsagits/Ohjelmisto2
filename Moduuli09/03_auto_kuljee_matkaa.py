@@ -27,8 +27,10 @@ class Auto:
             self.nopeus = self.huippunopeus
 
     def kulje(self, aikatuntia: float):
-        pass
+        self.kuljettumatka += self.nopeus * aikatuntia
+        print(f"Auto kulkee {self.nopeus} km/h nopeudella {aikatuntia:.2f} tuntia.\nYhteensä {self.nopeus * aikatuntia:.2f} kilometriä.")
 
 turbosaabi = Auto("ABC-123", 142)
 print(f"Auton tiedot\nRekisteritunnus: {turbosaabi.rekisteritunnus:s}\nHuippunopeus: {turbosaabi.huippunopeus}\nNopeus nyt: {turbosaabi.nopeus}\nKuljettu matka: {turbosaabi.kuljettumatka}")
-
+turbosaabi.kiihdytä(60)
+turbosaabi.kulje(1.5)

@@ -10,5 +10,4 @@ class Auto:
         print("Auto lisätty.")
 
 turbosaabi = Auto("ABC-123", 142)
-
 print(f"Auton tiedot\nRekisteritunnus: {turbosaabi.rekisteritunnus:s}\nHuippunopeus: {turbosaabi.huippunopeus}\nNopeus nyt: {turbosaabi.nopeus}\nKuljettu matka: {turbosaabi.kuljettumatka}")
