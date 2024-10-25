@@ -39,6 +39,7 @@ class Auto:
         # os.system('cls')
 
 
+os.system('cls')
 print("Autokilpailu 1.0")
 print("Tervetuloa!")
 print("Kilpailu alkaa...")
