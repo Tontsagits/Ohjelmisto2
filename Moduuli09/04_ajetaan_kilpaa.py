@@ -3,7 +3,7 @@
 from random import randint, randrange
 from time import sleep
 import os
-# from prettytable import PrettyTable
+from prettytable import PrettyTable
 
 class Auto:
 
@@ -40,7 +40,9 @@ class Auto:
 
 
 print("Autokilpailu 1.0")
-sleep(3)
+print("Tervetuloa!")
+print("Kilpailu alkaa...")
+sleep(2)
 os.system('cls')
 sleep(1)
 autot = []
@@ -58,13 +60,16 @@ while True:
     if perilla:
         break
 
-for auto in autot:
-    print(f"Auton tiedot\nRekisteritunnus: {auto.rekisteritunnus:s}\nHuippunopeus: {auto.huippunopeus}\nNopeus nyt: {auto.nopeus}\nKuljettu matka: {auto.kuljettumatka}")
-
-
-'''result = PrettyTable()
+result = PrettyTable(padding_width=5)
 result.field_names = ["Rekkari","Huippunopeus","Nopeus nyt","Kuljettu matka"]
+result.sortby = "Kuljettu matka"
+result.reversesort = True
 for auto in autot:
-    result.add_row(auto)
+    rivi = []
+    rivi.append(auto.rekisteritunnus)
+    rivi.append(auto.huippunopeus)
+    rivi.append(auto.nopeus)
+    rivi.append(auto.kuljettumatka)
+    result.add_row(rivi)
+print("Valmista tuli!")
 print(result)
-'''

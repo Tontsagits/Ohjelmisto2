@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="" />
+    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduuli09/04_ajetaan_kilpaa.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moduuli09/04_ajetaan_kilpaa.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,33 +33,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.example.html.executor": "Run",
-    "Python.01_Autolle_ominaisuuksia.executor": "Run",
-    "Python.02_vauhti_kiihtyy.executor": "Run",
-    "Python.03_auto_kuljee_matkaa.executor": "Run",
-    "Python.04_ajetaan_kilpaa.executor": "Run",
-    "Python.clear_screen_testing.executor": "Run",
-    "Python.clear_screen_testing_2.executor": "Run",
-    "Python.object-testing.executor": "Run",
-    "Python.object-testing_class-with_methods.executor": "Run",
-    "Python.object-testing_class_with_properties_constructor.executor": "Run",
-    "Python.time_module_testing.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/tonts/PyCharmProjects/Ohjelmisto2",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.JavaScript",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.example.html.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_Autolle_ominaisuuksia.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_vauhti_kiihtyy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_auto_kuljee_matkaa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_ajetaan_kilpaa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.clear_screen_testing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.clear_screen_testing_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.object-testing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.object-testing_class-with_methods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.object-testing_class_with_properties_constructor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random_testing_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.time_module_testing.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tonts/PyCharmProjects/Ohjelmisto2&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.JavaScript&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -92,6 +96,8 @@
       <workItem from="1729766533761" duration="36000" />
       <workItem from="1729766594355" duration="5454000" />
       <workItem from="1729835370519" duration="4842000" />
+      <workItem from="1729847965298" duration="5454000" />
+      <workItem from="1729853483235" duration="1712000" />
     </task>
     <servers />
   </component>
@@ -101,9 +107,10 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Ohjelmisto2$object_testing_class_with_methods.coverage" NAME="object-testing_class-with_methods Coverage Results" MODIFIED="1729768623610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$03_auto_kuljee_matkaa.coverage" NAME="03_auto_kuljee_matkaa Coverage Results" MODIFIED="1729771964332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli09" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto2$random_testing_1.coverage" NAME="random_testing_1 Coverage Results" MODIFIED="1729850547995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$clear_screen_testing.coverage" NAME="clear_screen_testing Coverage Results" MODIFIED="1729840165227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
-    <SUITE FILE_PATH="coverage/Ohjelmisto2$04_ajetaan_kilpaa.coverage" NAME="04_ajetaan_kilpaa Coverage Results" MODIFIED="1729837760224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli09" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$clear_screen_testing_2.coverage" NAME="clear_screen_testing_2 Coverage Results" MODIFIED="1729840461029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto2$04_ajetaan_kilpaa.coverage" NAME="04_ajetaan_kilpaa Coverage Results" MODIFIED="1729853244506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli09" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$02_vauhti_kiihtyy.coverage" NAME="02_vauhti_kiihtyy Coverage Results" MODIFIED="1729771180374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli09" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$time_module_testing.coverage" NAME="time_module_testing Coverage Results" MODIFIED="1729839210573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$object_testing.coverage" NAME="object-testing Coverage Results" MODIFIED="1729766984115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
