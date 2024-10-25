@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/python-test/cls_TEST_w_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-test/cls_TEST_w_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-test/dynamic_write_testing_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-test/dynamic_write_testing_1.py" afterDir="false" />
-    </list>
+    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +98,7 @@
       <workItem from="1729858367195" duration="249000" />
       <workItem from="1729860760114" duration="683000" />
       <workItem from="1729862471943" duration="170000" />
-      <workItem from="1729879589575" duration="881000" />
+      <workItem from="1729879589575" duration="1199000" />
     </task>
     <servers />
   </component>
