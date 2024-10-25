@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Moduuli09/04_ajetaan_kilpaa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-test/clear_screen_testing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-test/clear_screen_testing_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-test/time_delay_and_cls_testing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-test/time_module_testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +91,7 @@
       <workItem from="1729697319331" duration="6000" />
       <workItem from="1729766533761" duration="36000" />
       <workItem from="1729766594355" duration="5454000" />
-      <workItem from="1729835370519" duration="4654000" />
+      <workItem from="1729835370519" duration="4842000" />
     </task>
     <servers />
   </component>
