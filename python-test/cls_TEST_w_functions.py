@@ -2,6 +2,17 @@
 
 import os
 
-def main_screen():
-    pass
+def write_main_screen():
+    print(f"-== === ===== ===== ===== ===== ===== ===== ===== ===== === ==-")
+    print(f"-                                                             -")
+    print(f"-                                                             -")
+    print(f"-                                                             -")
+    print(f"-                                                             -")
+    print(f"-                                                             -")
+    print(f"-                                                             -")
+    print(f"-                                                             -")
+    print(f"-                                                             -")
+    print(f"-                                                             -")
+    print(f"-== === ===== ===== ===== ===== ===== ===== ===== ===== === ==-")
+
 
