@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/python-test/dynamic_write_testing_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-test/time_delay_and_cls_testing.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +101,8 @@
       <workItem from="1729853483235" duration="4042000" />
       <workItem from="1729858367195" duration="249000" />
       <workItem from="1729860760114" duration="683000" />
+      <workItem from="1729862471943" duration="170000" />
+      <workItem from="1729879589575" duration="333000" />
     </task>
     <servers />
   </component>
