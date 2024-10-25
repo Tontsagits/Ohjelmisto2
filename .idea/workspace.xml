@@ -96,7 +96,9 @@
       <workItem from="1729766594355" duration="5454000" />
       <workItem from="1729835370519" duration="4842000" />
       <workItem from="1729847965298" duration="5454000" />
-      <workItem from="1729853483235" duration="3769000" />
+      <workItem from="1729853483235" duration="4042000" />
+      <workItem from="1729858367195" duration="249000" />
+      <workItem from="1729860760114" duration="683000" />
     </task>
     <servers />
   </component>
@@ -109,7 +111,7 @@
     <SUITE FILE_PATH="coverage/Ohjelmisto2$random_testing_1.coverage" NAME="random_testing_1 Coverage Results" MODIFIED="1729850547995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$clear_screen_testing.coverage" NAME="clear_screen_testing Coverage Results" MODIFIED="1729840165227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$clear_screen_testing_2.coverage" NAME="clear_screen_testing_2 Coverage Results" MODIFIED="1729840461029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
-    <SUITE FILE_PATH="coverage/Ohjelmisto2$04_ajetaan_kilpaa.coverage" NAME="04_ajetaan_kilpaa Coverage Results" MODIFIED="1729853244506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli09" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto2$04_ajetaan_kilpaa.coverage" NAME="04_ajetaan_kilpaa Coverage Results" MODIFIED="1729858396719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli09" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$02_vauhti_kiihtyy.coverage" NAME="02_vauhti_kiihtyy Coverage Results" MODIFIED="1729771180374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli09" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$time_module_testing.coverage" NAME="time_module_testing Coverage Results" MODIFIED="1729839210573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$object_testing.coverage" NAME="object-testing Coverage Results" MODIFIED="1729766984115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
