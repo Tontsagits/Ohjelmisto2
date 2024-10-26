@@ -22,9 +22,11 @@ os.system('cls')
 print(f"-== === ===== ===== ===== ===== ===== ===== ===== ===== === ==-")
 print(f"-   A U T O K I L P A I L U       TERVETULOA!                 -")
 print(f"-== === ===== ===== ===== ===== ===== ===== ===== ===== === ==-")
+print("Osallistujat:")
 kilpailu1.tulosta_tilanne()
-# Odotetaan heti että pelaaja ehtii lukea tulokset
-time.sleep(5)
+print("Paina ENTER, jotta jatketaan...")
+# Odotetaan että käyttäjä painaa ENTER että jatketaan
+input()
 
 
 
@@ -47,9 +49,12 @@ while True:
     # Tulostetaan tilanne 10h välein
     if kesto % 10 == 0:
         # Tulostetaan pelin tilanne välitieto
+        print(f"-== === ===== ===== ===== ===== ===== ===== ===== ===== === ==-")
+        print(f"-   R A C E    I S     O N ! ! !                              -")
+        print(f"-== === ===== ===== ===== ===== ===== ===== ===== ===== === ==-")
         kilpailu1.tulosta_tilanne()
-        # Odotetaan että pelaaja ehtii lukea tiedot
-        time.sleep(1)
+        # Odotetaan hieman jotta numerot eivät vilise liian nopeasti
+        time.sleep(0.5)
 
     if perilla:
         break
@@ -57,10 +62,13 @@ while True:
 # Tyhjennetään ruutu lopullisten tulosten tulostamista varten
 os.system('cls')
 # Tulostetaan tulokset
-print("Valmista tuli!")
+print(f"-== === ===== ===== ===== ===== ===== ===== ===== ===== === ==-")
+print(f"-   A U T O K I L P A I L U        T U L O K S E T            -")
+print(f"-== === ===== ===== ===== ===== ===== ===== ===== ===== === ==-")
 kilpailu1.tulosta_tilanne()
-# Odotetaan että pelaaja ehtii lukea tulokset
-time.sleep(10)
+print("Paina ENTER, jotta jatketaan...")
+# Odotetaan että käyttäjä painaa ENTER että jatketaan
+input()
 
 # Tyhjennetään ruutu ja tulostaan heippa ja odotetaan hetki
 os.system('cls')
