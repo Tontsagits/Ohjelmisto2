@@ -1,7 +1,9 @@
 class Kilpailu:
 
     def __init__(self, nimi: str, pituuskm: int, autot: list):
-        pass
+        self.nimi = nimi
+        self.pituuskm = pituuskm
+        self.autot = autot
 
     def tunti_kuluu(self):
         return

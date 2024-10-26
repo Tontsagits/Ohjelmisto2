@@ -1,7 +1,7 @@
 # Ohjelmisto 2 - Moduuli 10 - Tehtävä 4 - Autokilpailu
 
 import autot
-import kilpailu
+import kilpailut
 
 from random import randint, randrange
 from prettytable import PrettyTable
@@ -11,7 +11,7 @@ for i in range(1,15):
     nopeus = randint(100,250)
     osallistujat.append(autot.Auto(f"ABC-{i}", nopeus))
 
-kilpailu.Kilpailu('Suuri romuralli', 8000, osallistujat)
+kilpailut.Kilpailu('Suuri romuralli', 8000, osallistujat)
 
 
 
