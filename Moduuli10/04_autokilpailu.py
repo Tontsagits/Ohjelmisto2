@@ -17,13 +17,13 @@ for i in range(1,11):
 kilpailu1 = kilpailut.Kilpailu('Suuri romuralli', 8000, osallistujat)
 
 # Tyhjennetään ruutu uutta peliä varten
-os.system('cls')
+#os.system('cls')
 # Tulostetaan lähtötilanne
-print("Lähtötilanne!")
-for auto in osallistujat:
-    print(f"{auto.rekisteritunnus}, {auto.huippunopeus} kmh, {auto.nopeus} kmh, {auto.kuljettumatka} km.")
+#print("Lähtötilanne!")
+#for auto in osallistujat:
+#    print(f"{auto.rekisteritunnus}, {auto.huippunopeus} kmh, {auto.nopeus} kmh, {auto.kuljettumatka} km.")
 # Odotetaan heti että pelaaja ehtii lukea tulokset
-time.sleep(5)
+#time.sleep(5)
 
 
 # Tyhjennetään ruutu uutta peliä varten

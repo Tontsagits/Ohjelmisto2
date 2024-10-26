@@ -1,4 +1,4 @@
-from prettytable import PrettyTable
+# from prettytable import PrettyTable
 
 class Kilpailu:
 
@@ -13,7 +13,16 @@ class Kilpailu:
         return
 
     def tulosta_tilanne(self):
-        results = PrettyTable(padding_width=5)
+        for auto in self.osallistujat:
+            print(f"{auto.rekisteritunnus}, {auto.huippunopeus} kmh, {auto.nopeus} kmh, {auto.kuljettumatka} km.")
+        return
+
+    def kilpailu_ohi(self, auto):
+        if auto.kuljettumatka >= self.pituuskm:
+            return True
+        return False
+
+'''        results = PrettyTable(padding_width=5)
         results.field_names = ["Rekkari", "Huippunopeus", "Nopeus nyt", "Kuljettu matka"]
         rivi = []
         for osallistuja in self.osallistujat:
@@ -23,9 +32,4 @@ class Kilpailu:
             rivi.append(osallistuja.kuljettumatka)
             results.add_row(rivi)
         print(results)
-        return
-
-    def kilpailu_ohi(self, auto):
-        if auto.kuljettumatka >= self.pituuskm:
-            return True
-        return False
+'''
