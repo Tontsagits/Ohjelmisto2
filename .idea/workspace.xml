@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python-test/object-testing-dynamic-creation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moduuli10/03_palohalytys.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +112,7 @@
       <workItem from="1729860760114" duration="683000" />
       <workItem from="1729862471943" duration="170000" />
       <workItem from="1729879589575" duration="1783000" />
-      <workItem from="1729931893321" duration="18660000" />
+      <workItem from="1729931893321" duration="19196000" />
     </task>
     <servers />
   </component>
