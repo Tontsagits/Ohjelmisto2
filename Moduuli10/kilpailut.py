@@ -12,17 +12,17 @@ class Kilpailu:
         auto.kulje(aika)
         return
 
-    def tulosta_tilanne(self, osallistujat: list):
-        result = PrettyTable(padding_width=5)
-        result.field_names = ["Rekkari", "Huippunopeus", "Nopeus nyt", "Kuljettu matka"]
+    def tulosta_tilanne(self):
+        results = PrettyTable(padding_width=5)
+        results.field_names = ["Rekkari", "Huippunopeus", "Nopeus nyt", "Kuljettu matka"]
         rivi = []
-        for auto in osallistujat:
-            rivi.append(auto.rekisteritunnus)
-            rivi.append(auto.huippunopeus)
-            rivi.append(auto.nopeus)
-            rivi.append(auto.kuljettumatka)
-            result.add_row(rivi)
-        print(result)
+        for osallistuja in self.osallistujat:
+            rivi.append(osallistuja.rekisteritunnus)
+            rivi.append(osallistuja.huippunopeus)
+            rivi.append(osallistuja.nopeus)
+            rivi.append(osallistuja.kuljettumatka)
+            results.add_row(rivi)
+        print(results)
         return
 
     def kilpailu_ohi(self, auto):
