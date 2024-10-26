@@ -7,8 +7,6 @@ from prettytable import PrettyTable
 
 class Auto:
 
-    tdelay = 0.1
-
     def __init__(self, rekisteritunnus: str, huippunopeus: int, nopeus=0, kuljettumatka=0):
         self.rekisteritunnus = rekisteritunnus
         self.huippunopeus = huippunopeus
@@ -25,7 +23,6 @@ class Auto:
 
     def kulje(self, aikatuntia: float):
         self.kuljettumatka += self.nopeus * aikatuntia
-
 
 os.system('cls')
 print("Autokilpailu 1.0")
