@@ -17,19 +17,11 @@ for i in range(1,11):
 kilpailu1 = kilpailut.Kilpailu('Suuri romuralli', 8000, osallistujat)
 
 # Tyhjennetään ruutu uutta peliä varten
-#os.system('cls')
-# Tulostetaan lähtötilanne
-#print("Lähtötilanne!")
-#for auto in osallistujat:
-#    print(f"{auto.rekisteritunnus}, {auto.huippunopeus} kmh, {auto.nopeus} kmh, {auto.kuljettumatka} km.")
-# Odotetaan heti että pelaaja ehtii lukea tulokset
-#time.sleep(5)
-
-
-# Tyhjennetään ruutu uutta peliä varten
 os.system('cls')
 # Tulostetaan lähtötilanne
-print("Osallistujat:")
+print(f"-== === ===== ===== ===== ===== ===== ===== ===== ===== === ==-")
+print(f"-   A U T O K I L P A I L U       TERVETULOA!                 -")
+print(f"-== === ===== ===== ===== ===== ===== ===== ===== ===== === ==-")
 kilpailu1.tulosta_tilanne()
 # Odotetaan heti että pelaaja ehtii lukea tulokset
 time.sleep(5)
