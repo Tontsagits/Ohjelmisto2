@@ -18,4 +18,3 @@ class Auto:
     def kulje(self, aikatuntia: float):
         self.kuljettumatka += self.nopeus * aikatuntia
         return
-

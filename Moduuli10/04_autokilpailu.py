@@ -4,7 +4,6 @@ import autot
 import kilpailut
 
 from random import randint
-#from prettytable import PrettyTable
 
 # Luodaan autot
 osallistujat = []
@@ -17,13 +16,18 @@ kilpailu1 = kilpailut.Kilpailu('Suuri romuralli', 8000, osallistujat)
 
 # Suoritetaan kilpailu
 while True:
+    kesto = 0
     for auto in osallistujat:
         # Ajetaan 1h kerralla, auto muuttaa vauhtia ja liikkuu
         kilpailu1.tunti_kuluu(auto, randint(-10,15))
-        # Tarkastetaan onko joku jo maalissa
+        kesto += 1
+        # Tarkastetaan onko joku jo maalissa, jos on lopetetaan
         kilpailu1.kilpailu_ohi(auto)
 
         # Tulostetaan tilanne 10h välein
-        kilpailu1.tulosta_tilanne(auto)
+        for auto in osallistujat:
+            kilpailu1.tulosta_tilanne(auto)
     if perilla:
         break
+
+# Tulostetaan tulokset
