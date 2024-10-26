@@ -12,12 +12,15 @@ class Talo:
         print(f"Hissi {hissi} liikkuu...")
         self.hissit[hissi].siirry_kerrokseen(kohdekerros)
     def palohälytys(self):
-        for hissi in self.hissit:
-            self.hissit[hissi].siirry_kerrokseen(self.alin)
+        print("Palohälytys! Kaikki hissit alas!")
+        for i in range(len(self.hissit)):
+            self.aja_hissiä(i, self.alin)
 
 # Main
 
 talo1 = Talo(1, 9, 3)
 talo1.aja_hissiä(0, 5)
 talo1.aja_hissiä(1, 3)
+talo1.aja_hissiä(1, 34)
 talo1.aja_hissiä(2, 8)
+talo1.palohälytys()
