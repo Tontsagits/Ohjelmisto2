@@ -32,6 +32,7 @@ class Talo:
         self.kpl = kpl
         self.hissit = [Hissi(self.alin, self.ylin) for _ in range(self.kpl)]
     def aja_hissiä(self, hissi: int, kohdekerros: int):
+        print(f"Hissi {hissi} liikkuu...")
         self.hissit[hissi].siirry_kerrokseen(kohdekerros)
 
 # Main
