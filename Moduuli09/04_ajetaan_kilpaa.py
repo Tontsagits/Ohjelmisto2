@@ -14,29 +14,17 @@ class Auto:
         self.huippunopeus = huippunopeus
         self.nopeus = nopeus
         self.kuljettumatka = kuljettumatka
-        # print(f"Auto {self.rekisteritunnus} lisätty.")
-        # print(f"Auton tiedot\nRekisteritunnus: {self.rekisteritunnus:s}\nHuippunopeus: {self.huippunopeus}\nNopeus nyt: {self.nopeus}\nKuljettu matka: {self.kuljettumatka}")
-        # sleep(Auto.tdelay)
-        # os.system('cls')
 
     def kiihdytä(self, nopmuutos: int):
         if 0 <= self.nopeus + nopmuutos <= self.huippunopeus:
             self.nopeus += nopmuutos
-            # print(f"Auton {self.rekisteritunnus} nopeus on nyt {self.nopeus} km/h.")
         elif self.nopeus + nopmuutos < 0:
-            # print(f"Auto {self.rekisteritunnus} on paikoillaan eikä liiku.")
             self.nopeus = 0
         else:
-            # print(f"Auton {self.rekisteritunnus} huippunopeus {self.huippunopeus} km/h saavutettu.")
             self.nopeus = self.huippunopeus
-        # sleep(Auto.tdelay)
-        # os.system('cls')
 
     def kulje(self, aikatuntia: float):
         self.kuljettumatka += self.nopeus * aikatuntia
-        # print(f"Auto {self.rekisteritunnus} kulkee {self.nopeus} km/h nopeudella {aikatuntia:.2f} tuntia.\nYhteensä {self.nopeus * aikatuntia:.2f} kilometriä.\nAuto on nyt liikkunyt yhteensä {self.kuljettumatka:.2f} kilometriä.")
-        # sleep(Auto.tdelay)
-        # os.system('cls')
 
 
 os.system('cls')
