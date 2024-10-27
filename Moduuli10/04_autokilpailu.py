@@ -7,6 +7,8 @@ from random import randint
 import os
 import time
 
+from colorama import Fore
+
 # Luodaan autot
 osallistujat = []
 for i in range(1,11):
@@ -19,11 +21,11 @@ kilpailu1 = kilpailut.Kilpailu('Suuri romuralli', 8000, osallistujat)
 # Tyhjennetään ruutu uutta peliä varten
 os.system('cls')
 # Tulostetaan lähtötilanne
-print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
-print(f"|       A U T O K I L P A I L U            T E R V E T U L O A !                |") # 81 chars
-print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
+print(f"{Fore.GREEN} == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === =={Fore.RESET}") # 80 chars
+print(f"{Fore.GREEN}|          {Fore.RED}A U T O K I L P A I L U         T E R V E T U L O A !{Fore.GREEN}                |{Fore.RESET}") # 81 chars
+print(f"{Fore.GREEN} == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === =={Fore.RESET}") # 80 chars
 kilpailu1.tulosta_tilanne()
-print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
+print(f"{Fore.GREEN} == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === =={Fore.RESET}") # 80 chars
 print("Paina ENTER niin ALOITETAAN kilpailu!")
 # Odotetaan että käyttäjä painaa ENTER että jatketaan
 input()
@@ -49,11 +51,11 @@ while True:
     # Tulostetaan tilanne 10h välein
     if kesto % 10 == 0:
         # Tulostetaan pelin tilanne välitieto
-        print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==")  # 80 chars
-        print(f"|          R A C E    I S     O N ! ! !                                         |") # 81 chars
-        print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==")  # 80 chars
+        print(f"{Fore.GREEN} == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === =={Fore.RESET}")  # 80 chars
+        print(f"{Fore.GREEN}|          {Fore.RED}R A C E    I S     O N ! ! !{Fore.GREEN}                                         |{Fore.RESET}") # 81 chars
+        print(f"{Fore.GREEN} == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === =={Fore.RESET}")  # 80 chars
         kilpailu1.tulosta_tilanne()
-        print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==")  # 80 chars
+        print(f"{Fore.GREEN} == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === =={Fore.RESET}")  # 80 chars
         # Odotetaan hieman jotta numerot eivät vilise liian nopeasti
         time.sleep(0.5)
 
@@ -63,11 +65,11 @@ while True:
 # Tyhjennetään ruutu lopullisten tulosten tulostamista varten
 os.system('cls')
 # Tulostetaan tulokset
-print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
-print(f"|    V A L M I S T A   T U L I !             T U L O K S E T:                   |") # 81 chars
-print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
+print(f"{Fore.GREEN} == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === =={Fore.RESET}") # 80 chars
+print(f"{Fore.GREEN}|        {Fore.RED}V A L M I S T A   T U L I !         T U L O K S E T:{Fore.GREEN}                   |{Fore.RESET}") # 81 chars
+print(f"{Fore.GREEN} == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === =={Fore.RESET}") # 80 chars
 kilpailu1.tulosta_tilanne()
-print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
+print(f"{Fore.GREEN} == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === =={Fore.RESET}") # 80 chars
 print("Paina ENTER poistuaksesi.")
 # Odotetaan että käyttäjä painaa ENTER että jatketaan
 input()
