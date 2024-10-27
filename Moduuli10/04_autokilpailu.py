@@ -24,7 +24,7 @@ print(f"|       A U T O K I L P A I L U            T E R V E T U L O A !        
 print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
 kilpailu1.tulosta_tilanne()
 print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
-print("Paina ENTER niin aloitetaan kilpailu!")
+print("Paina ENTER niin ALOITETAAN kilpailu!")
 # Odotetaan että käyttäjä painaa ENTER että jatketaan
 input()
 
@@ -64,7 +64,7 @@ while True:
 os.system('cls')
 # Tulostetaan tulokset
 print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
-print(f"|            A U T O K I L P A I L U N              T U L O K S E T             |") # 81 chars
+print(f"|    V A L M I S T A   T U L I !             T U L O K S E T:                   |") # 81 chars
 print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
 kilpailu1.tulosta_tilanne()
 print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
