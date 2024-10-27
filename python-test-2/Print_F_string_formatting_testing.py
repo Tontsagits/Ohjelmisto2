@@ -1,5 +1,20 @@
 # Testing Print F String formatting
 
+
+
+# To insert characters that are illegal in a string, use an escape character.
+print("To insert characters that are illegal in a string, use an escape character.")
+txt = "We are the so-called \"Vikings\" from the north."
+print(txt)
+
+print()
+print()
+print()
+
+
+
+
+
 # To format values in an f-string, add placeholders {},
 # a placeholder can contain variables, operations,
 # functions, and modifiers to format the value.
@@ -94,6 +109,19 @@ print()
 
 
 
+
+print("You can use index numbers (a number inside the curly brackets {0}) to be sure the values are placed in the correct placeholders")
+# You can use index numbers (a number inside the curly brackets {0}) to be
+# sure the values are placed in the correct placeholders
+age = 36
+name = "John"
+txt = "His name is {1}. {1} is {0} years old."
+print(txt.format(age, name))
+
+print("You can also use named indexes by entering a name inside the curly brackets {carname}")
+# You can also use named indexes by entering a name inside the curly brackets {carname}
+myorder = "I have a {carname}, it is a {model}."
+print(myorder.format(carname = "Ford", model = "Mustang"))
 
 
 

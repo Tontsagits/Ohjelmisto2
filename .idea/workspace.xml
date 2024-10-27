@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduuli10/04_autokilpailu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moduuli10/04_autokilpailu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduuli10/kilpailut.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moduuli10/kilpailut.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python-test-2/Print_F_string_formatting_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-test-2/Print_F_string_formatting_testing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +117,7 @@
       <workItem from="1729879589575" duration="1783000" />
       <workItem from="1729931893321" duration="23300000" />
       <workItem from="1729957681766" duration="8049000" />
-      <workItem from="1730018700618" duration="3814000" />
+      <workItem from="1730018700618" duration="4159000" />
     </task>
     <servers />
   </component>
@@ -139,7 +136,7 @@
     <SUITE FILE_PATH="coverage/Ohjelmisto2$time_module_testing.coverage" NAME="time_module_testing Coverage Results" MODIFIED="1729839210573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$object_testing_class_with_properties_constructor.coverage" NAME="object-testing_class_with_properties_constructor Coverage Results" MODIFIED="1729767579653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$03_palohalytys.coverage" NAME="03_palohalytys Coverage Results" MODIFIED="1729953640685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli10" />
-    <SUITE FILE_PATH="coverage/Ohjelmisto2$Print_F_string_formatting_testing.coverage" NAME="Print_F_string_formatting_testing Coverage Results" MODIFIED="1730020783914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test-2" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto2$Print_F_string_formatting_testing.coverage" NAME="Print_F_string_formatting_testing Coverage Results" MODIFIED="1730022593266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test-2" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$03_auto_kuljee_matkaa.coverage" NAME="03_auto_kuljee_matkaa Coverage Results" MODIFIED="1729771964332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli09" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$creating_variable_names_dynamically.coverage" NAME="creating_variable_names_dynamically Coverage Results" MODIFIED="1729948688902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test-2" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$clear_screen_testing_2.coverage" NAME="clear_screen_testing_2 Coverage Results" MODIFIED="1729840461029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
