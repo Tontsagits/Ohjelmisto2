@@ -22,8 +22,8 @@ os.system('cls')
 print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
 print(f"|       A U T O K I L P A I L U            T E R V E T U L O A !                |") # 81 chars
 print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
-
 kilpailu1.tulosta_tilanne()
+print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
 print("Paina ENTER niin aloitetaan kilpailu!")
 # Odotetaan että käyttäjä painaa ENTER että jatketaan
 input()
@@ -53,6 +53,7 @@ while True:
         print(f"|          R A C E    I S     O N ! ! !                                         |") # 81 chars
         print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==")  # 80 chars
         kilpailu1.tulosta_tilanne()
+        print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==")  # 80 chars
         # Odotetaan hieman jotta numerot eivät vilise liian nopeasti
         time.sleep(0.5)
 
@@ -66,6 +67,7 @@ print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ====
 print(f"|            A U T O K I L P A I L U N              T U L O K S E T             |") # 81 chars
 print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
 kilpailu1.tulosta_tilanne()
+print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
 print("Paina ENTER poistuaksesi.")
 # Odotetaan että käyttäjä painaa ENTER että jatketaan
 input()
