@@ -11,8 +11,9 @@ class Kilpailu:
         return
 
     def tulosta_tilanne(self):
+        print(f"| Rekisteritunnus | Auton huippunopeus | Auton nopeus nyt | Auton kulkema matka |")
         for auto in self.osallistujat:
-            print(f"{auto.rekisteritunnus}, {auto.huippunopeus} kmh, {auto.nopeus} kmh, {auto.kuljettumatka} km.")
+            print(f"| {auto.rekisteritunnus:^15} | {auto.huippunopeus:18} | {auto.nopeus:16} | {auto.kuljettumatka:19} |")
         return
 
     def kilpailu_ohi(self, auto):

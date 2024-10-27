@@ -19,12 +19,12 @@ kilpailu1 = kilpailut.Kilpailu('Suuri romuralli', 8000, osallistujat)
 # Tyhjennetään ruutu uutta peliä varten
 os.system('cls')
 # Tulostetaan lähtötilanne
-print(f"-== === ===== ===== ===== ===== ===== ===== ===== ===== === ==-") # 63 chars
-print(f"-   A U T O K I L P A I L U       TERVETULOA!                 -")
-print(f"-== === ===== ===== ===== ===== ===== ===== ===== ===== === ==-")
-print("Osallistujat:")
+print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
+print(f"|       A U T O K I L P A I L U            T E R V E T U L O A !                |") # 81 chars
+print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
+
 kilpailu1.tulosta_tilanne()
-print("Paina ENTER, jotta jatketaan...")
+print("Paina ENTER niin aloitetaan kilpailu!")
 # Odotetaan että käyttäjä painaa ENTER että jatketaan
 input()
 
@@ -49,9 +49,9 @@ while True:
     # Tulostetaan tilanne 10h välein
     if kesto % 10 == 0:
         # Tulostetaan pelin tilanne välitieto
-        print(f"-== === ===== ===== ===== ===== ===== ===== ===== ===== === ==-")
-        print(f"-   R A C E    I S     O N ! ! !                              -")
-        print(f"-== === ===== ===== ===== ===== ===== ===== ===== ===== === ==-")
+        print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==")  # 80 chars
+        print(f"|          R A C E    I S     O N ! ! !                                         |") # 81 chars
+        print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==")  # 80 chars
         kilpailu1.tulosta_tilanne()
         # Odotetaan hieman jotta numerot eivät vilise liian nopeasti
         time.sleep(0.5)
@@ -62,18 +62,18 @@ while True:
 # Tyhjennetään ruutu lopullisten tulosten tulostamista varten
 os.system('cls')
 # Tulostetaan tulokset
-print(f"-== === ===== ===== ===== ===== ===== ===== ===== ===== === ==-")
-print(f"-   A U T O K I L P A I L U        T U L O K S E T            -")
-print(f"-== === ===== ===== ===== ===== ===== ===== ===== ===== === ==-")
+print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
+print(f"|            A U T O K I L P A I L U N              T U L O K S E T             |") # 81 chars
+print(f" == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === ==") # 80 chars
 kilpailu1.tulosta_tilanne()
-print("Paina ENTER, jotta jatketaan...")
+print("Paina ENTER poistuaksesi.")
 # Odotetaan että käyttäjä painaa ENTER että jatketaan
 input()
 
 # Tyhjennetään ruutu ja tulostaan heippa ja odotetaan hetki
 os.system('cls')
 print("Heippa!")
-time.sleep(3)
+time.sleep(2)
 
 # Tyhjennetään ruutu ja peli on ohi
 os.system('cls')
