@@ -1,5 +1,3 @@
-# from prettytable import PrettyTable
-
 class Kilpailu:
 
     def __init__(self, nimi: str, pituuskm: int, osallistujat: list):
@@ -21,15 +19,3 @@ class Kilpailu:
         if auto.kuljettumatka >= self.pituuskm:
             return True
         return False
-
-'''        results = PrettyTable(padding_width=5)
-        results.field_names = ["Rekkari", "Huippunopeus", "Nopeus nyt", "Kuljettu matka"]
-        rivi = []
-        for osallistuja in self.osallistujat:
-            rivi.append(osallistuja.rekisteritunnus)
-            rivi.append(osallistuja.huippunopeus)
-            rivi.append(osallistuja.nopeus)
-            rivi.append(osallistuja.kuljettumatka)
-            results.add_row(rivi)
-        print(results)
-'''

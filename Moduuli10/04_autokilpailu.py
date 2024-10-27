@@ -19,7 +19,7 @@ kilpailu1 = kilpailut.Kilpailu('Suuri romuralli', 8000, osallistujat)
 # Tyhjennetään ruutu uutta peliä varten
 os.system('cls')
 # Tulostetaan lähtötilanne
-print(f"-== === ===== ===== ===== ===== ===== ===== ===== ===== === ==-")
+print(f"-== === ===== ===== ===== ===== ===== ===== ===== ===== === ==-") # 63 chars
 print(f"-   A U T O K I L P A I L U       TERVETULOA!                 -")
 print(f"-== === ===== ===== ===== ===== ===== ===== ===== ===== === ==-")
 print("Osallistujat:")
