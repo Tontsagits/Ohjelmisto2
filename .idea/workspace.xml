@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python-test/object-inheritance-testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-test/object-inheritance-testing-2_multiinhe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
     "Python.clear_screen_testing_2.executor": "Run",
     "Python.creating_variable_names_dynamically.executor": "Run",
     "Python.object-association-testing-2_temp_association.executor": "Run",
+    "Python.object-inheritance-testing-2_multiinhe.executor": "Run",
     "Python.object-inheritance-testing.executor": "Run",
     "Python.object-testing-dynamic-creation.executor": "Run",
     "Python.object-testing.executor": "Run",
@@ -122,7 +122,7 @@
       <workItem from="1730018700618" duration="6449000" />
       <workItem from="1730025322158" duration="2204000" />
       <workItem from="1730099051121" duration="1612000" />
-      <workItem from="1730133584332" duration="400000" />
+      <workItem from="1730133584332" duration="835000" />
     </task>
     <servers />
   </component>
@@ -131,6 +131,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Ohjelmisto2$object_testing_class_with_methods.coverage" NAME="object-testing_class-with_methods Coverage Results" MODIFIED="1729768623610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto2$object_inheritance_testing_2_multiinhe.coverage" NAME="object-inheritance-testing-2_multiinhe Coverage Results" MODIFIED="1730134421473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$random_testing_1.coverage" NAME="random_testing_1 Coverage Results" MODIFIED="1729850547995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$clear_screen_testing.coverage" NAME="clear_screen_testing Coverage Results" MODIFIED="1729840165227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$04_ajetaan_kilpaa.coverage" NAME="04_ajetaan_kilpaa Coverage Results" MODIFIED="1729960358054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli09" />
