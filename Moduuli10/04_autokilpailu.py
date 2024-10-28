@@ -12,8 +12,8 @@ from colorama import Fore
 # Luodaan autot
 osallistujat = []
 for i in range(1,11):
-    nopeus = randint(100,250)
-    osallistujat.append(autot.Auto(f"ABC-{i}", nopeus))
+    mnopeus = randint(100,250)
+    osallistujat.append(autot.Auto(f"ABC-{i}", mnopeus))
 
 # Luodaan kilpailu
 kilpailu1 = kilpailut.Kilpailu('Suuri romuralli', 8000, osallistujat)
@@ -57,7 +57,7 @@ while True:
         kilpailu1.tulosta_tilanne()
         print(f"{Fore.GREEN} == === ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== === =={Fore.RESET}")  # 80 chars
         # Odotetaan hieman jotta numerot eivät vilise liian nopeasti
-        time.sleep(0.5)
+        time.sleep(0.1)
 
     if perilla:
         break
