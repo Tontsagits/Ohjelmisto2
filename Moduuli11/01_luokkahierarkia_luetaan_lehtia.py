@@ -23,7 +23,13 @@ class Kirja(Julkaisu):
 
 
 aa = Lehti("Aku Ankka", "Aki Hyyppä")
-kirja = Kirja("Hytti n:o 6", "Rosa Liksom", 200)
+rs = Lehti("Roope Setä", "Hannu Hanhi")
+mn = Lehti("Musta Naami", "Salama Vuf Vuf")
+kirja1 = Kirja("Hytti n:o 6", "Rosa Liksom", 200)
+kirja2 = Kirja("Sofian Maailma", "Jostein Gaarder", 608)
 
 aa.tulosta_tiedot()
-kirja.tulosta_tiedot()
+rs.tulosta_tiedot()
+mn.tulosta_tiedot()
+kirja1.tulosta_tiedot()
+kirja2.tulosta_tiedot()
