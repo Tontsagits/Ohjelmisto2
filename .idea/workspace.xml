@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Moduuli11/01_luokkahierarkia_luetaan_lehtia.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moduuli11/01_luokkahierarkia_luetaan_lehtia.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-test/object-association-testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-test/object-association-testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-test/object-inheritance-testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-test/object-inheritance-testing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +124,7 @@
       <workItem from="1730025322158" duration="2204000" />
       <workItem from="1730099051121" duration="1612000" />
       <workItem from="1730133584332" duration="4441000" />
-      <workItem from="1730199854136" duration="3085000" />
+      <workItem from="1730199854136" duration="3489000" />
     </task>
     <servers />
   </component>
