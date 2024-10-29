@@ -10,6 +10,7 @@ class Lehti(Julkaisu):
         self.ptoimittaja = ptoimittaja
     def tulosta_tiedot(self):
         print(f"{self.nimi}\nPäätoimittaja: {self.ptoimittaja}")
+        return
 
 class Kirja(Julkaisu):
     def __init__(self, nimi: str, tekija: str, sivuja: int):
@@ -18,7 +19,7 @@ class Kirja(Julkaisu):
         self.sivuja = sivuja
     def tulosta_tiedot(self):
         print(f"{self.nimi}\nTekijä: {self.tekija}, {self.sivuja} sivua.")
-
+        return
 
 
 aa = Lehti("Aku Ankka", "Aki Hyyppä")
