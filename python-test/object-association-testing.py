@@ -5,12 +5,12 @@ from random import randint
 # luodaan luokka Koira
 
 class Koira:
-    def __init__(self, nimi, syntymävuosi, haukahdus="Vuh-vuh"):
+    def __init__(self, nimi: str, syntymävuosi: int, haukahdus="Vuh-vuh"):
         self.nimi = nimi
         self.syntymävuosi = syntymävuosi
         self.haukahdus = haukahdus
 
-    def hauku(self, kerrat):
+    def hauku(self, kerrat: int):
         for i in range(kerrat):
             print(self.nimi + " haukkuu: " + self.haukahdus)
         return
@@ -29,7 +29,7 @@ class Hoitola:
         print(f"Koira {koira.nimi} kirjattu ulos hoidosta.")
         return
 
-    def tervehdi_koiria(self, kerrat):
+    def tervehdi_koiria(self, kerrat: int):
         for koira in self.koirat:
             koira.hauku(kerrat)
 
@@ -39,20 +39,21 @@ class Hoitola:
 
 # Pääohjelma
 
-koira1 = Koira("Murre", 2020, "Räyh räyh")
-koira2 = Koira("Musti", 2021, "Möyk möyk")
-koira3 = Koira("Meteoriitti", 2022, "Viu viu")
-koira4 = Koira("Vuffe", 2023)
-koira5 = Koira("Rekku", 2024, "Möh möh")
+if __name__ == "__main__":
+    koira1 = Koira("Murre", 2020, "Räyh räyh")
+    koira2 = Koira("Musti", 2021, "Möyk möyk")
+    koira3 = Koira("Meteoriitti", 2022, "Viu viu")
+    koira4 = Koira("Vuffe", 2023)
+    koira5 = Koira("Rekku", 2024, "Möh möh")
 
-hoitola1 = Hoitola()
+    hoitola1 = Hoitola()
 
-hoitola1.koira_hoitoon(koira1)
-hoitola1.koira_hoitoon(koira2)
-hoitola1.tervehdi_koiria(1)
-hoitola1.koirat_haukkuu()
+    hoitola1.koira_hoitoon(koira1)
+    hoitola1.koira_hoitoon(koira2)
+    hoitola1.tervehdi_koiria(1)
+    hoitola1.koirat_haukkuu()
 
-hoitola1.koira_hoitoon(koira3)
-hoitola1.koira_hoitoon(koira4)
-hoitola1.koira_hoitoon(koira5)
-hoitola1.koirat_haukkuu()
+    hoitola1.koira_hoitoon(koira3)
+    hoitola1.koira_hoitoon(koira4)
+    hoitola1.koira_hoitoon(koira5)
+    hoitola1.koirat_haukkuu()
