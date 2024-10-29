@@ -21,7 +21,6 @@ class Kirja(Julkaisu):
         print(f"{self.nimi}\nTekijä: {self.tekija}, {self.sivuja} sivua.")
         return
 
-
 aa = Lehti("Aku Ankka", "Aki Hyyppä")
 rs = Lehti("Roope Setä", "Hannu Hanhi")
 mn = Lehti("Musta Naami", "Salama Vuf Vuf")
