@@ -22,19 +22,29 @@ from colorama import Fore
 
 req1 = "https://api.chucknorris.io/jokes/random"
 
+def on_key_press(event):
+    global key_pressed
+    key_pressed = True
+
+keyboard.on_press(on_key_press)
+
+key_pressed = False
+
 while True:
     resp1 = requests.get(req1).json()
     os.system('cls' if os.name == 'nt' else 'clear')
     # print(resp1)
     # print(json.dumps(resp1, indent=4))
-    print(f"Press and hold ESC to quit.")
+    # print(f"Press and hold ESC to quit.")
+    print(f"Here are some random Chuck Norris FACTS! Press any key to quit.")
     print(f"{Fore.GREEN}*** {Fore.RED}{resp1['value']} {Fore.GREEN}***{Fore.RESET}\r")
-    time.sleep(5)
+    time.sleep(7)
     # check for ESC keypressed down
-    if keyboard.is_pressed("esc"):
+#    if keyboard.is_pressed("esc"):
+    if key_pressed:
         break
 
 os.system('cls' if os.name == 'nt' else 'clear')
 print("Bye!")
-time.sleep(5)
+time.sleep(4)
 os.system('cls' if os.name == 'nt' else 'clear')
