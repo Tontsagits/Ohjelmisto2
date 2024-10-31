@@ -39,8 +39,9 @@ while True:
     print(f"Here are some random Chuck Norris FACTS! Press any key to quit.")
     print(f"{Fore.GREEN}*** {Fore.RED}{resp1['value']} {Fore.GREEN}***{Fore.RESET}\r")
     time.sleep(7)
-    # check for ESC keypressed down
+    # check for ESC key pressed down
 #    if keyboard.is_pressed("esc"):
+    # check if any key pressed
     if key_pressed:
         break
 
