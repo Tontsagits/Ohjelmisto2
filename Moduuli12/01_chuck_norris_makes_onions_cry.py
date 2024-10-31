@@ -1,5 +1,6 @@
 # Ohjelmisto 2 - Moduuli 12 - Tehtävä 1 - Random Chuck Norris vitsi
 
+import keyboard
 import requests
 # import json # for json.dumps method
 
@@ -20,12 +21,20 @@ from colorama import Fore
 }'''
 
 req1 = "https://api.chucknorris.io/jokes/random"
-resp1 = requests.get(req1).json()
-# print(resp1)
-# print(json.dumps(resp1, indent=4))
-os.system('cls')
-print(f"{Fore.RED}{resp1['value']}{Fore.RESET}")
-time.sleep(10)
+
+while True:
+    resp1 = requests.get(req1).json()
+    os.system('cls' if os.name == 'nt' else 'clear')
+    # print(resp1)
+    # print(json.dumps(resp1, indent=4))
+    print(f"Press and hold ESC to quit.")
+    print(f"{Fore.GREEN}*** {Fore.RED}{resp1['value']} {Fore.GREEN}***{Fore.RESET}\r")
+    time.sleep(5)
+    # check for ESC keypressed down
+    if keyboard.is_pressed("esc"):
+        break
+
+os.system('cls' if os.name == 'nt' else 'clear')
 print("Bye!")
-time.sleep(3)
-os.system('cls')
+time.sleep(5)
+os.system('cls' if os.name == 'nt' else 'clear')
