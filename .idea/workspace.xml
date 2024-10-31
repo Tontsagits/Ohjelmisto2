@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Moduuli12/01_chuck_norris_makes_onions_cry.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-test/API_testing_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-test/API_testing_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduuli12/01_chuck_norris_makes_onions_cry.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moduuli12/01_chuck_norris_makes_onions_cry.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +129,7 @@
       <workItem from="1730133584332" duration="4441000" />
       <workItem from="1730199854136" duration="4542000" />
       <workItem from="1730275253244" duration="4875000" />
-      <workItem from="1730369977027" duration="6024000" />
+      <workItem from="1730369977027" duration="7554000" />
     </task>
     <servers />
   </component>
@@ -147,7 +146,7 @@
     <SUITE FILE_PATH="coverage/Ohjelmisto2$object_testing_class_with_properties_constructor.coverage" NAME="object-testing_class_with_properties_constructor Coverage Results" MODIFIED="1729767579653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$Print_F_string_formatting_testing.coverage" NAME="Print_F_string_formatting_testing Coverage Results" MODIFIED="1730023172605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test-2" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$object_inheritance_testing.coverage" NAME="object-inheritance-testing Coverage Results" MODIFIED="1730201724332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
-    <SUITE FILE_PATH="coverage/Ohjelmisto2$01_chuck_norris_makes_onions_cry.coverage" NAME="01_chuck_norris_makes_onions_cry Coverage Results" MODIFIED="1730375815069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli12" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto2$01_chuck_norris_makes_onions_cry.coverage" NAME="01_chuck_norris_makes_onions_cry Coverage Results" MODIFIED="1730376857369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli12" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$object_testing_dynamic_creation.coverage" NAME="object-testing-dynamic-creation Coverage Results" MODIFIED="1729951157768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$02_vauhti_kiihtyy.coverage" NAME="02_vauhti_kiihtyy Coverage Results" MODIFIED="1729771180374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli09" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$01_Autolle_ominaisuuksia.coverage" NAME="01_Autolle_ominaisuuksia Coverage Results" MODIFIED="1729769186831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli09" />
