@@ -1,5 +1,4 @@
 import requests
-import json
 
 hakusana = input("Anna hakusana: ")
 
