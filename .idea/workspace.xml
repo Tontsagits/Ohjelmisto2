@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Moduuli12/01_chuck_norris_makes_onions_cry.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moduuli12/01_chuck_norris_makes_onions_cry.py" afterDir="false" />
-    </list>
+    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +126,7 @@
       <workItem from="1730133584332" duration="4441000" />
       <workItem from="1730199854136" duration="4542000" />
       <workItem from="1730275253244" duration="4875000" />
-      <workItem from="1730369977027" duration="8770000" />
+      <workItem from="1730369977027" duration="8824000" />
     </task>
     <servers />
   </component>
