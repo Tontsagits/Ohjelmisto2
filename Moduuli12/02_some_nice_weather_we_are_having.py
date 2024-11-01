@@ -2,6 +2,7 @@
 
 from colorama import Fore
 import requests
+import os
 
 # API
 # Current weather data
@@ -24,11 +25,20 @@ import requests
 # We support the following languages that you can use with the corresponded lang values:
 # lang=fi Finnish
 
+os.system('cls' if os.name == 'nt' else 'clear')
 api_url = "https://api.openweathermap.org/data/2.5/weather?q"
 api_key = "8891ed0ba67dbb011bea8d0213972a42"
 api_lang = "fi"
 api_units ="metric"
-city_name = str(input(f"*** {Fore.LIGHTBLUE_EX}Anna {Fore.RED}}kaupunki{Fore.LIGHTBLUE_EX}, jonka säätiedot haluat hakea: {Fore.RESET}"))
-api_req = f"{api_url}={city_name}&{api_key}&lang={api_lang}&units={api_units}"
+city_name = str(input(f"*** {Fore.LIGHTBLUE_EX}Anna {Fore.RED}kaupunki{Fore.LIGHTBLUE_EX}, jonka säätiedot haluat hakea: {Fore.RESET}"))
+api_req = f"{api_url}={city_name}&appid={api_key}&lang={api_lang}&units={api_units}"
 api_resp = requests.get(api_req).json()
-print(api_resp)
+print()
+print(f"{Fore.LIGHTBLUE_EX}Kaupunki: {Fore.GREEN}{api_resp['name']}")
+print(f"{Fore.LIGHTBLUE_EX}Lämpötila: {Fore.GREEN}{api_resp['main']['temp']}{Fore.LIGHTBLUE_EX}'C")
+print(f"{Fore.LIGHTBLUE_EX}Vuorokauden")
+print(f"{Fore.LIGHTBLUE_EX}- Alin lämpötila: {Fore.GREEN}{api_resp['main']['temp_min']}{Fore.LIGHTBLUE_EX}'C")
+print(f"{Fore.LIGHTBLUE_EX}- Ylin lämpötila: {Fore.GREEN}{api_resp['main']['temp_max']}{Fore.LIGHTBLUE_EX}'C")
+print(f"{Fore.LIGHTBLUE_EX}Ilmanpaine: {Fore.GREEN}{api_resp['main']['pressure']} {Fore.LIGHTBLUE_EX}hPa")
+print(f"{Fore.LIGHTBLUE_EX}Ilmankosteusprosentti: {Fore.GREEN}{api_resp['main']['humidity']} {Fore.LIGHTBLUE_EX}%")
+print(f"{Fore.LIGHTBLUE_EX}Tuulen nopeus: {Fore.GREEN}{api_resp['wind']['speed']} {Fore.LIGHTBLUE_EX}m/s")
