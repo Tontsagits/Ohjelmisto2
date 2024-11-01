@@ -36,7 +36,7 @@ while True:
     # print(resp1)
     # print(json.dumps(resp1, indent=4))
     # print(f"Press and hold ESC to quit.")
-    print(f"Here are some random Chuck Norris FACTS! Press any key to quit.")
+    print(f"Here are some random Chuck Norris FACTS!\nChuck Norris CAN press ANYKEY to exit.\nYou need to just press any key to quit.")
     print(f"{Fore.GREEN}*** {Fore.RED}{resp1['value']} {Fore.GREEN}***{Fore.RESET}\r")
     time.sleep(7)
     # check for ESC key pressed down
