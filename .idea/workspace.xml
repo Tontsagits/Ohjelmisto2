@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Moduuli12/02_some_nice_weather_we_are_having.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduuli12/02_some_nice_weather_we_are_having.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moduuli12/02_some_nice_weather_we_are_having.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +131,7 @@
       <workItem from="1730199854136" duration="4542000" />
       <workItem from="1730275253244" duration="4875000" />
       <workItem from="1730369977027" duration="8824000" />
-      <workItem from="1730443974246" duration="2676000" />
+      <workItem from="1730443974246" duration="4316000" />
     </task>
     <servers />
   </component>
