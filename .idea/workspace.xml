@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="" />
+    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Moduuli12/02_some_nice_weather_we_are_having.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +41,7 @@
     "Python.01_chuck_norris_makes_onions_cry.executor": "Run",
     "Python.01_hissi_liikkuu.executor": "Run",
     "Python.01_luokkahierarkia_luetaan_lehtia.executor": "Run",
+    "Python.02_some_nice_weather_we_are_having.executor": "Run",
     "Python.02_talon_hissit.executor": "Run",
     "Python.02_vauhti_kiihtyy.executor": "Run",
     "Python.03_auto_kuljee_matkaa.executor": "Run",
@@ -127,6 +131,7 @@
       <workItem from="1730199854136" duration="4542000" />
       <workItem from="1730275253244" duration="4875000" />
       <workItem from="1730369977027" duration="8824000" />
+      <workItem from="1730443974246" duration="2676000" />
     </task>
     <servers />
   </component>
@@ -157,6 +162,7 @@
     <SUITE FILE_PATH="coverage/Ohjelmisto2$03_auto_kuljee_matkaa.coverage" NAME="03_auto_kuljee_matkaa Coverage Results" MODIFIED="1729771964332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli09" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$creating_variable_names_dynamically.coverage" NAME="creating_variable_names_dynamically Coverage Results" MODIFIED="1729948688902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test-2" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$clear_screen_testing_2.coverage" NAME="clear_screen_testing_2 Coverage Results" MODIFIED="1729840461029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto2$02_some_nice_weather_we_are_having.coverage" NAME="02_some_nice_weather_we_are_having Coverage Results" MODIFIED="1730449353680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli12" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$object_testing.coverage" NAME="object-testing Coverage Results" MODIFIED="1729766984115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$02_talon_hissit.coverage" NAME="02_talon_hissit Coverage Results" MODIFIED="1729953103445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli10" />
   </component>
