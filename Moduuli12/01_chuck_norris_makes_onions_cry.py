@@ -20,7 +20,7 @@ from colorama import Fore
 "value" : "if you shoot Chuck Norris, the bullet dies"
 }'''
 
-req1 = "https://api.chucknorris.io/jokes/random"
+api_url = "https://api.chucknorris.io/jokes/random"
 
 def on_key_press(event):
     global key_pressed
@@ -31,13 +31,13 @@ keyboard.on_press(on_key_press)
 key_pressed = False
 
 while True:
-    resp1 = requests.get(req1).json()
+    api_resp = requests.get(api_url).json()
     os.system('cls' if os.name == 'nt' else 'clear')
     # print(resp1)
     # print(json.dumps(resp1, indent=4))
     # print(f"Press and hold ESC to quit.")
     print(f"Here are some random Chuck Norris FACTS!\nChuck Norris CAN press ANYKEY to exit.\nYou need to just press any key to quit.")
-    print(f"{Fore.GREEN}*** {Fore.RED}{resp1['value']} {Fore.GREEN}***{Fore.RESET}\r")
+    print(f"{Fore.GREEN}*** {Fore.RED}{api_resp['value']} {Fore.GREEN}***{Fore.RESET}\r")
     time.sleep(7)
     # check for ESC key pressed down
 #    if keyboard.is_pressed("esc"):
