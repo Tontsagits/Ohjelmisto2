@@ -1,11 +1,13 @@
 # Ohjelmisto 2 - Moduuli 12 - Tehtävä 1 - Random Chuck Norris vitsi
 
 import keyboard
+
 import requests
 # import json # for json.dumps method
 
 import os
 import time
+
 from colorama import Fore
 
 # chucknorris.io is a free JSON API for hand curated Chuck Norris facts.
