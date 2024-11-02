@@ -36,8 +36,10 @@ while True:
     # print(resp1)
     # print(json.dumps(resp1, indent=4))
     # print(f"Press and hold ESC to quit.")
-    print(f"Here are some random Chuck Norris FACTS!\nChuck Norris CAN press ANYKEY to exit.\nYou need to just press any key to quit.")
-    print(f"{Fore.GREEN}*** {Fore.RED}{api_resp['value']} {Fore.GREEN}***{Fore.RESET}\r")
+    print()
+    print(f"     Here are some random Chuck Norris FACTS!\n     Chuck Norris CAN press {Fore.RED}ANYKEY{Fore.RESET} to exit.\n     {Fore.GREEN}You just need to just any key to quit.{Fore.RESET}")
+    print()
+    print(f"{Fore.GREEN}*** {Fore.RED}{api_resp['value']} {Fore.GREEN}***{Fore.RESET}")
     time.sleep(7)
     # check for ESC key pressed down
 #    if keyboard.is_pressed("esc"):
@@ -46,6 +48,7 @@ while True:
         break
 
 os.system('cls' if os.name == 'nt' else 'clear')
-print("Bye!")
+print()
+print(f"          B y e !")
 time.sleep(4)
 os.system('cls' if os.name == 'nt' else 'clear')
