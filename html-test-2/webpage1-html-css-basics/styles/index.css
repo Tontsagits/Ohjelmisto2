@@ -1,6 +1,13 @@
 /* Comment: Webpage1 index css document: index.css */
 /* Comment: css BEGIN */
 
+/* remove all browser default margin and padding
+*{
+	margin:0;
+	padding:0;
+}
+*/
+
 /*
 	Comment: main container
 	styles: header, aside, footer
