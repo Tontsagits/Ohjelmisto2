@@ -2,6 +2,9 @@ body {
     color: black;
     background-color: darkgrey;
     font-family: Tahoma, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: medium;
 }
 
 p {
@@ -24,4 +27,12 @@ a:hover {
     text-decoration: none;
     font-weight: normal;
     font-style: normal;
+}
+
+#id-example {
+    color: brown;
+}
+
+#id-example:hover {
+    color: black;
 }
