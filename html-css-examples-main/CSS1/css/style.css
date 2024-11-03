@@ -119,3 +119,18 @@ article p:last-child {
 .box::after {
   content: " ➥";
 }
+
+/* class name STARTs with a */
+li[class^="a"] {
+  font-size: 120%;
+}
+
+/* class name ENDs with a */
+li[class$="a"] {
+  background-color: yellow;
+}
+
+/* class name HAS a in it somewhere */
+li[class*="a"] {
+  color: red;
+}
