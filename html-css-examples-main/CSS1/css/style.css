@@ -11,10 +11,6 @@ p {
     color: orangered;
 }
 
-.class-example {
-    color: blue;
-}
-
 a {
     color: black;
     text-decoration: none;
@@ -34,5 +30,37 @@ a:hover {
 }
 
 #id-example:hover {
+    color: black;
+}
+
+.class-example {
+    color: blue;
+}
+
+.class-example:hover {
+    color: orange;
+}
+
+/* li a: all child elements under of LI that are A */
+/* grandgrand...grandparent child or grandchild or grandgrand...grandchild */
+li a {
+    color: green;
+}
+
+/* li>a: the "first" child element of LI that is A */
+/* no grand is counted into this. needs to be 1st parent and or 1st child of */
+li>a {
+    color: orange;
+}
+
+/* next sibling, next child of parent, only the 1st child following parent */
+h1 + p {
+    color: darkgreen;
+}
+
+/* subsequent sibling combinator */
+/* choose all childs within parent even if not 1st */
+article h1 ~ p {
+    background-color: yellow;
     color: black;
 }
