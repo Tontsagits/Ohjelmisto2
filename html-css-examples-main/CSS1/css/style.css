@@ -7,9 +7,22 @@ body {
     font-size: medium;
 }
 
+/* select all H1 elements in the document */
+h1 {
+    background-color: lightcoral;
+}
+
+/* choose all P elements in the document and make their text orangered */
 p {
     color: orangered;
 }
+
+/* next sibling element that comes right after this element */
+/* next sibling combinator */
+h1 + p {
+    color: darkgreen;
+}
+
 
 a {
     color: black;
@@ -41,26 +54,41 @@ a:hover {
     color: orange;
 }
 
-/* li a: all child elements under of LI that are A */
-/* grandgrand...grandparent child or grandchild or grandgrand...grandchild */
+/* li a: all child and grandchild and grandgrand...grandchild etc elements under of LI that are A */
+/* grandgrand...grandparent or parent or child or grandchild or grandgrand...grandchild */
+/* descendant combinator */
 li a {
-    color: green;
+    color: darkblue;
+    font-weight: bold;
 }
 
-/* li>a: the "first" child element of LI that is A */
-/* no grand is counted into this. needs to be 1st parent and or 1st child of */
+/* li>a: all the "first level" aka direct child elements of LI that are A */
+/* no grand parents are counted into this. needs to be 1st level parent and/or 1st level child of */
+/* child combinator, only direct children */
 li>a {
-    color: orange;
+    color: darkorange;
 }
 
-/* next sibling, next child of parent, only the 1st child following parent */
-h1 + p {
-    color: darkgreen;
+/* all article elements of document */
+article {
+    background-color: darkmagenta;
+}
+
+/* all h1 elements under an article element */
+article h1 {
+    background-color: lightseagreen;
 }
 
 /* subsequent sibling combinator */
-/* choose all childs within parent even if not 1st */
+/* choose all sibling elements that come anywhere after */
 article h1 ~ p {
     background-color: yellow;
     color: black;
+}
+
+/* Pseudo classes. Used to affect states of objects. Hover, visited, etc. */
+article p:last-child {
+    color: darkblue;
+    font-style: italic;
+    font-weight: bold;
 }

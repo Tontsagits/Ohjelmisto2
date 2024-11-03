@@ -7,29 +7,42 @@
 </head>
 <body>
 
-<h1>Nice heading in body color black</h1>
+<h1>Nice H1 heading in body text color black</h1>
 
-<p>Some not orangered text in P</p>
+<p>Some not orangered text in P, this is 1st element, next sibling, after H1 so this is dark green</p>
 <p>Some orangered text in P</p>
+<p>Some more orangered text in P</p>
 
-<p>In P a link named with id &quot;id-example&quot; here: <a href="https://metropolia.fi" id="id-example" title="Link to an example webpage">Example link</a> is in brown and when hovered over its black.</p>
-<p>Some other link with no id or class here: <a href="https://www.google.fi/" target="_blank" title="Link to Google.com website">Go to Google</a> is in black color via body and when hovered over is in red color.</p>
-<p>Some more orangered P text inside body with a <span class="class-example" title="A blue word">blue</span> word in it and it changes color when hovered over! Nice!.</p>
+<p>A link inside P named with id &quot;id-example&quot; here: <a href="https://metropolia.fi" id="id-example" title="Link to an example webpage">Example link</a> is in brown and when hovered over its black.</p>
+<p>Again p and some other link with no id or class here: <a href="https://www.google.fi/" target="_blank" title="Link to Google.com website">Go to Google</a> is in black color via body and when hovered over is in red color.</p>
+<p>And one more P with some more orangered P text inside body with a <span class="class-example" title="A blue word">blue</span> word in it and it changes color when hovered over! Nice!.</p>
 
+<br>
+<p>Next we make a LIST:</p>
 
 <ul>
-    <li><a href="#" title="Link number 3">Third link inside a UL LI</a></li>
-    <li><p><a href="#" title="Link number 4">Fourth link inside a UL LI also inside P</a></p></li>
-    <li><a href="#" title="Link number 4">Third link inside a UL LI</a></li>
+    <li><a href="#" title="Link number 3">Third link inside a UL LI, direct child of UL</a></li>
+    <li><p><a href="#" title="Link number 4">Fourth link inside a UL LI but also inside P, so not direct child but grandchild</a></p></li>
+    <li><a href="#" title="Link number 4">Third link inside a UL LI, direct child of UL</a></li>
+    <li><p><a href="#" title="Link number 5">Fifth link inside a UL LI but also inside P, so not direct child but grandchild</a></p></li>
 </ul>
 
-
+<br>
 
 <article>
-    <h1>A heading</h1>
-    <p>I am a paragraph.</p>
-    <div>I am a div</div>
-    <p>I am another paragraph.</p>
+    <h1>Article H1 heading</h1>
+    <p>I am a 1st paragraph.</p>
+    <div>I am a div
+        <p>I am a Paragraph inside div</p>
+    </div>
+    <p>I am another paragraph and last paragraph and last child of article.</p>
+</article>
+
+<article>
+    <h1>Article H1 heading</h1>
+    <p>I am a first paragraph.</p>
+    <p>I am a second paragraph.</p>
+    <p>I am a third paragraph and last paragrapth and last child of article.</p>
 </article>
 
 </body>
