@@ -51,7 +51,7 @@ a:hover {
 }
 
 .class-example:hover {
-    color: orange;
+    color: hotpink;
 }
 
 /* li a: all child and grandchild and grandgrand...grandchild etc elements under of LI that are A */
@@ -79,12 +79,21 @@ article h1 {
     background-color: lightseagreen;
 }
 
+article h1:hover {
+    background-color: hotpink;
+}
+
 /* subsequent sibling combinator */
 /* choose all sibling elements that come anywhere after */
 /* no child/grandchild/etc chosen to this, only siblings */
 article h1 ~ p {
     background-color: yellow;
     color: black;
+}
+
+/* all p elements inside any article element, their 1st line make bigger */
+article p::first-line {
+    font-size: large;
 }
 
 /* Pseudo classes. Used to affect states of objects. Hover, visited, etc. */
