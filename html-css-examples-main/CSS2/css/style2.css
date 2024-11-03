@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Helvetica';
+}
+
+html {
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+
+div {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: lightgrey;
+}
+
+header h1 {
+    padding: 5px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    color: darkorange;
+}
+
+li a:hover::after {
+    content: " @";
+}
+
+main {
+    background-color: darkgray;
+}
+
+footer {
+    background-color: lightgrey;
+}
