@@ -131,6 +131,10 @@ li[class$="a"] {
 }
 
 /* class name HAS a in it somewhere */
+/* CASE SENSITIVITY with attribute i in statement: li[class^="a" i] */
 li[class*="a"] {
   color: red;
+}
+li[class^="A" i] {
+  color: saddlebrown;
 }
