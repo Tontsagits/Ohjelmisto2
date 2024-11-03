@@ -81,6 +81,7 @@ article h1 {
 
 /* subsequent sibling combinator */
 /* choose all sibling elements that come anywhere after */
+/* no child/grandchild/etc chosen to this, only siblings */
 article h1 ~ p {
     background-color: yellow;
     color: black;
