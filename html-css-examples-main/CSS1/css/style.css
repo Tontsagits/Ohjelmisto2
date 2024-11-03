@@ -106,3 +106,16 @@ article p:last-child {
 .first {
     font-size: large;
 }
+
+.box::before {
+  content: "before";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  border: 1px solid black;
+}
+
+.box::after {
+  content: " ➥";
+}
