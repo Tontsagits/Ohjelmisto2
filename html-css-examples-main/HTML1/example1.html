@@ -2,63 +2,58 @@
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Beginner HTML webpage training with CSS styles and Javascript">
 	<meta name="keywords" content="HTML, CSS, JavaScript, webpage, training, beginner, student, study, studying, www, boxmodel, flexbox, grid, Metropolia UAS">
 	<meta name="author" content="Toni Heino">
-    <title>Learning some HTML and CSS</title>
-	<style>
-		body {
-			color: black;
-			background-color: darkgrey;
-            font-family: Tahoma, Helvetica, sans-serif;
-        }
-        a {
-            color: black;
-            text-decoration: none;
-            font-weight: normal;
-            font-style: normal;
-        }
-        a:hover {
-            color: red;
-            text-decoration: none;
-            font-weight: normal;
-            font-style: normal;
-        }
-    </style>
+    <title>HTML Example 1 page</title>
     <link rel="stylesheet" href="./css/style1.css">
 </head>
 <body>
 <div class="container">
     <header>
-        <h1>header heading; Learning some HTML and CSS</h1>
+        <h1>Header heading of Example Page</h1>
     </header>
+    <nav>
+        <ul>
+            <li><a href="#" title="Link 1">Link 1</a></li>
+            <li><a href="#" title="Link 2">Link 2</a></li>
+            <li><a href="#" title="Link 3">Link 3</a></li>
+        </ul>
+    </nav>
     <main>
-        <h1>Main heading</h1>
-        <article>
-            <h2>Article heading in main</h2>
-            <p>lorum ipsum dolor sit amet, <i>consectetur adipiscing elit</i>, sed do eiusmod tempor</p>
-            <p>lorum ipsum dolor sit amet, &quot;consectetur adipiscing elit&quot;, sed do eiusmod tempor</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci distinctio eligendi illo iusto, maxime necessitatibus neque, nihil officiis praesentium quaerat ratione sapiente vel? Enim, incidunt, odio. Architecto, nostrum, unde.
-        </article>
         <section>
-            <h1>Section heading in main</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, ad sequi. Numquam repudiandae sit soluta. Doloremque harum rerum vitae. At autem consectetur cum dignissimos ipsum iure reiciendis reprehenderit, temporibus voluptas.</p>
+            <h2>Some important articles</h2>
+            <article>
+                <h3>in section articles heading</h3>
+                <img src="https://placecats.com/300/400?fit=cover" alt="Placeholder">
+                <p>lorum ipsum dolor sit amet, <i>consectetur adipiscing elit</i>, sed do eiusmod tempor</p>
+                <p>lorum ipsum dolor sit amet, &quot;consectetur adipiscing elit&quot;, sed do eiusmod tempor</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci distinctio eligendi illo iusto, maxime necessitatibus neque, nihil officiis praesentium quaerat ratione sapiente vel? Enim, incidunt, odio. Architecto, nostrum, unde.
+            </article>
+            <article>
+                <h3>in section another articles heading</h3>
+                <img src="https://placecats.com/300/400?fit=cover" alt="Placeholder">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, ad sequi. Numquam repudiandae sit soluta. Doloremque harum rerum vitae. At autem consectetur cum dignissimos ipsum iure reiciendis reprehenderit, temporibus voluptas.</p>
+            </article>
         </section>
         <aside>
-            <h1>Aside heading in main</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi distinctio doloribus et eum fugiat, illum impedit iusto, nam nemo nulla quibusdam quos ratione rem repellat veniam voluptatibus voluptatum. Ex, quod.</p>
+            <ol>
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+            </ol>
         </aside>
-        <nav>
-            <h1>Navigation heading in main</h1>
-            <p><a href="https://www.google.com/" target="_blank">Go to Google.com</a></p>
-        </nav>
     </main>
-    <footer><p>footer (c) Tontsa</p></footer>
+    <footer>
+        <h3>Subscribe to our newsletter.</h3>
+        <form action="#">
+            <input type="email" name="email" placeholder="Your email address">
+            <input type="submit" value="Send">
+        </form>
+    </footer>
 </div>
-
-
 
 </body>
 </html>
