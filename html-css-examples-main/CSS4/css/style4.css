@@ -54,9 +54,18 @@ main {
 
 section {
     width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section h2 {
+    width: 100%;
 }
 
 article {
+    width: 50%;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
 figure {
