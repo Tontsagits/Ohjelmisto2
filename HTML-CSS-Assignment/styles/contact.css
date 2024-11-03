@@ -67,11 +67,28 @@ li a:hover {
 main {
     background-color: darkgray;
     padding: 1rem;
+    background-image: url(Animated_Shape.svg);
 }
 
 h1 {
     width: 100%;
     align-self: center;
+}
+
+article {
+    display: flex;
+}
+
+#address {
+    padding: 5px;
+    display: flow;
+    width: 40%;
+}
+
+#mapofhq {
+    border-radius: 0;
+    width: 50%;
+    height: auto;
 }
 
 

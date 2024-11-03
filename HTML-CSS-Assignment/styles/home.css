@@ -67,6 +67,7 @@ li a:hover {
 main {
     background-color: darkgray;
     padding: 1rem;
+    background-image: url(Animated_Shape.svg);
 }
 
 h1 {
