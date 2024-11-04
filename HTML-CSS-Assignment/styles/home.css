@@ -17,10 +17,11 @@ body {
 .container {
     width: 90%;
     margin: auto;
+    background-color: steelblue;
 }
 
 header {
-    background-color: gray;
+    background-color: steelblue;
     padding: 1rem;
     display: flex;
 }
@@ -32,25 +33,28 @@ header {
 }
 
 nav {
-    background-color: gray;
+    background-color: steelblue;
     width: 90%;
+    display: flex;
+    justify-content: right;
 }
 
 ul {
+    background-color: steelblue;
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
-    background-color: gray;
     padding: 0;
     margin: 0;
 }
 
 li {
     width: calc(100% / 3);
+    padding-right: 25px;
 }
 
 li a {
-    background-color: dimgrey;
+    background-color: darkslateblue;
     color: whitesmoke;
     width: 100%;
     display: block;
@@ -65,14 +69,14 @@ li a:hover {
 }
 
 main {
-    background-color: darkgray;
+    background-color: steelblue;
     padding: 1rem;
     background-image: url(Animated_Shape.svg);
 }
 
 h1 {
     width: 100%;
-    align-self: center;
+    text-align: center;
 }
 
 #picofhq {
