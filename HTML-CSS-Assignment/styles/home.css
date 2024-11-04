@@ -37,6 +37,7 @@ nav {
     width: 75%;
     display: flex;
     justify-content: right;
+    box-sizing: border-box;
 }
 
 ul {
@@ -72,11 +73,30 @@ main {
     background-color: steelblue;
     padding: 1rem;
     background-image: url(Animated_Shape.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
     width: 100%;
     text-align: center;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+h3 {
+    width: 100%;
+    text-align: right;
 }
 
 #picofhq {
@@ -89,7 +109,7 @@ footer {
     margin: 0;
     padding: 3px;
     height: 100%;
-    background-color: darkslateblue;
+    background-color: steelblue;
     display: flex;
     justify-content: space-evenly;
 }
@@ -98,19 +118,27 @@ footer>p {
     height: 25px;
     width: 33%;
     text-align: left;
+    font-weight: bold;
 }
 
 footer p:last-child {
     width: 45%;
     height: 25px;
     text-align: right;
+    font-weight: bold;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 969px) {
     .container {
         width: 80%;
     }
     li {
         width: 10rem;
+    }
+    section {
+        width: 100%;
+    }
+    article {
+        width: 100%;
     }
 }
