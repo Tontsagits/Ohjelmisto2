@@ -1,12 +1,12 @@
 @font-face {
-    font-family: FireSans;
+    font-family: FiraSans;
     src: url("FiraSans-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
 
 html {
-    font-family: FireSans, Tahoma, Helvetica, sans-serif;
+    font-family: FiraSans, Tahoma, Helvetica, sans-serif;
 }
 
 body {
