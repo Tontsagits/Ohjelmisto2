@@ -87,16 +87,23 @@ h1 {
 
 footer {
     margin: 0;
-    height: 100%;
-    background-color: darkslateblue;
-}
-
-footer p {
-    margin: 0;
     padding: 3px;
     height: 100%;
     background-color: darkslateblue;
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer>p {
+    height: 25px;
+    width: 33%;
+    text-align: left;
+}
+
+footer p:last-child {
+    width: 45%;
+    height: 25px;
+    text-align: right;
 }
 
 @media screen and (min-width: 769px) {
