@@ -85,6 +85,19 @@ h1 {
     height: auto;
 }
 
+footer {
+    margin: 0;
+    height: 100%;
+    background-color: darkslateblue;
+}
+
+footer p {
+    margin: 0;
+    padding: 3px;
+    height: 100%;
+    background-color: darkslateblue;
+    text-align: center;
+}
 
 @media screen and (min-width: 769px) {
     .container {
