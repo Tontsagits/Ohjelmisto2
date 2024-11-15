@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Module2/t3/t3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/t3/t3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/t3/t3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/t9/t9.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/t9/t9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/t9/t9.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/t1/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t1/t1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,11 +22,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="CSS File" />
-        <option value="HTML File" />
+        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,7 +82,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.JavaScript&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -143,7 +152,10 @@
       <workItem from="1730709186225" duration="1658000" />
       <workItem from="1730718338393" duration="4913000" />
       <workItem from="1730724223099" duration="1213000" />
-      <workItem from="1730804939364" duration="5864000" />
+      <workItem from="1730804939364" duration="5923000" />
+      <workItem from="1730880380918" duration="2917000" />
+      <workItem from="1731069739324" duration="3673000" />
+      <workItem from="1731409602013" duration="250000" />
     </task>
     <servers />
   </component>

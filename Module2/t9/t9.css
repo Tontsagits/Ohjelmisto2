@@ -1,0 +1,20 @@
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: darkgray;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h1 {
+    padding: 3em
+}
+
+footer {
+    padding: 3em
+}
