@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Module2/t3/t3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/t3/t3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/t3/t3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/t9/t9.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/t9/t9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module2/t9/t9.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,9 +15,9 @@
       <list>
         <option value="Python Script" />
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -43,49 +35,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.example.html.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_Autolle_ominaisuuksia.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_chuck_norris_makes_onions_cry.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_hissi_liikkuu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_luokkahierarkia_luetaan_lehtia.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_some_nice_weather_we_are_having.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_talon_hissit.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_vauhti_kiihtyy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_auto_kuljee_matkaa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_palohalytys.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_ajetaan_kilpaa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_autokilpailu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.API_testing_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Print_F_string_formatting_testing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.clear_screen_testing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.clear_screen_testing_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.creating_variable_names_dynamically.executor&quot;: &quot;Run&quot;,
-    &quot;Python.object-association-testing-2_temp_association.executor&quot;: &quot;Run&quot;,
-    &quot;Python.object-inheritance-testing-2_multiinhe.executor&quot;: &quot;Run&quot;,
-    &quot;Python.object-inheritance-testing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.object-testing-dynamic-creation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.object-testing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.object-testing_class-with_methods.executor&quot;: &quot;Run&quot;,
-    &quot;Python.object-testing_class_with_properties_constructor.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pause_testing_with_input.executor&quot;: &quot;Run&quot;,
-    &quot;Python.random_testing_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.time_module_testing.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tonts/PyCharmProjects/Ohjelmisto2&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.example.html.executor": "Run",
+    "Python.01_Autolle_ominaisuuksia.executor": "Run",
+    "Python.01_chuck_norris_makes_onions_cry.executor": "Run",
+    "Python.01_hissi_liikkuu.executor": "Run",
+    "Python.01_luokkahierarkia_luetaan_lehtia.executor": "Run",
+    "Python.02_some_nice_weather_we_are_having.executor": "Run",
+    "Python.02_talon_hissit.executor": "Run",
+    "Python.02_vauhti_kiihtyy.executor": "Run",
+    "Python.03_auto_kuljee_matkaa.executor": "Run",
+    "Python.03_palohalytys.executor": "Run",
+    "Python.04_ajetaan_kilpaa.executor": "Run",
+    "Python.04_autokilpailu.executor": "Run",
+    "Python.API_testing_1.executor": "Run",
+    "Python.Print_F_string_formatting_testing.executor": "Run",
+    "Python.clear_screen_testing.executor": "Run",
+    "Python.clear_screen_testing_2.executor": "Run",
+    "Python.creating_variable_names_dynamically.executor": "Run",
+    "Python.object-association-testing-2_temp_association.executor": "Run",
+    "Python.object-inheritance-testing-2_multiinhe.executor": "Run",
+    "Python.object-inheritance-testing.executor": "Run",
+    "Python.object-testing-dynamic-creation.executor": "Run",
+    "Python.object-testing.executor": "Run",
+    "Python.object-testing_class-with_methods.executor": "Run",
+    "Python.object-testing_class_with_properties_constructor.executor": "Run",
+    "Python.pause_testing_with_input.executor": "Run",
+    "Python.random_testing_1.executor": "Run",
+    "Python.time_module_testing.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/tonts/PyCharmProjects/Ohjelmisto2",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\HTML-CSS-Assignment\images" />
@@ -95,8 +88,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
-        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
+        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -156,6 +149,7 @@
       <workItem from="1730880380918" duration="2917000" />
       <workItem from="1731069739324" duration="3673000" />
       <workItem from="1731409602013" duration="250000" />
+      <workItem from="1731667715796" duration="362000" />
     </task>
     <servers />
   </component>
