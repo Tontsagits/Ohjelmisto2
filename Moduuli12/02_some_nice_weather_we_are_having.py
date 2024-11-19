@@ -27,13 +27,14 @@ import time
 # lang=fi Finnish
 
 os.system('cls' if os.name == 'nt' else 'clear')
-api_url = "https://api.openweathermap.org/data/2.5/weather?q"
+api_url = "https://api.openweathermap.org/data/2.5/weather?"
 api_key = "8891ed0ba67dbb011bea8d0213972a42"
 api_lang = "fi"
-api_units ="metric"
+api_units = "metric"
 print()
-city_name = str(input(f"   *** {Fore.LIGHTBLUE_EX}Anna {Fore.RED}kaupunki{Fore.LIGHTBLUE_EX}, jonka säätiedot haluat hakea: {Fore.RESET}"))
-api_req = f"{api_url}={city_name}&appid={api_key}&lang={api_lang}&units={api_units}"
+city_name = str(input(
+    f"   *** {Fore.LIGHTBLUE_EX}Anna {Fore.RED}kaupunki{Fore.LIGHTBLUE_EX}, jonka säätiedot haluat hakea: {Fore.RESET}"))
+api_req = f"{api_url}q={city_name}&appid={api_key}&lang={api_lang}&units={api_units}"
 api_resp = requests.get(api_req).json()
 '''print()
 for key, value in api_resp.items():

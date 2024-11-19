@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/python-test/API_testing_2_openWeatherMap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduuli12/02_some_nice_weather_we_are_having.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moduuli12/02_some_nice_weather_we_are_having.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,10 +18,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="Python Script" />
         <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -154,7 +156,9 @@
       <workItem from="1731409602013" duration="250000" />
       <workItem from="1731667715796" duration="1160000" />
       <workItem from="1731674801915" duration="2099000" />
-      <workItem from="1731931962359" duration="646000" />
+      <workItem from="1731931962359" duration="1529000" />
+      <workItem from="1732005482294" duration="1899000" />
+      <workItem from="1732013730559" duration="2422000" />
     </task>
     <servers />
   </component>
