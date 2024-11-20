@@ -1,3 +1,5 @@
+# API testing 2 - OpenWeather
+
 import requests
 
 lat = 60

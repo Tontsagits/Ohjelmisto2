@@ -1,13 +1,19 @@
+# API Testing 1 - creating requests
+
 import requests
+
+# import json
 
 hakusana = input("Anna hakusana: ")
 
 # Pyynnön malli: https://api.tvmaze.com/search/shows?q=girls
-pyyntö = "https://api.tvmaze.com/search/shows?q=" + hakusana
+pyynto = "https://api.tvmaze.com/search/shows?q=" + hakusana
 
-vastaus = requests.get(pyyntö).json()
+# vastaus = requests.get(pyynto)
+vastaus = requests.get(pyynto).json()
 
 # print(json.dumps(vastaus, indent=4))
+# print(vastaus)
 
 # Käy läpi JSON rakennetta. Sisältää dictionary elementtejä sisäkkäin ja listoja
 for entry in vastaus:
