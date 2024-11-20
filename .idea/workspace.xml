@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JS-Testing_2/test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS-Testing_2/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS-Testing_2/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-Testing_3/test3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-Testing_3/test3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-Testing_3/test3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-Testing_4_map/test4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-Testing_4_map/test4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-Testing_4_map/test4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Testing_2/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/JS-Testing_2/test2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Testing_2/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS-Testing_2/test2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Testing_2/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS-Testing_2/test2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +166,7 @@
       <workItem from="1731931962359" duration="1529000" />
       <workItem from="1732005482294" duration="1899000" />
       <workItem from="1732013730559" duration="5667000" />
+      <workItem from="1732088537112" duration="5413000" />
     </task>
     <servers />
   </component>
