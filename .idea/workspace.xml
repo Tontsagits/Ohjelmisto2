@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python-test/API_testing_3_error_testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-test/API_ENDPOINT_testing_1_flask.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-test/API_testing_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-test/API_testing_1_requests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-test/API_testing_2_openWeatherMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-test/API_testing_2_openWeatherMap.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +53,7 @@
     "Python.03_palohalytys.executor": "Run",
     "Python.04_ajetaan_kilpaa.executor": "Run",
     "Python.04_autokilpailu.executor": "Run",
+    "Python.API_ENDPOINT_testing_1_flask.executor": "Run",
     "Python.API_testing_1.executor": "Run",
     "Python.API_testing_3_error_testing.executor": "Run",
     "Python.Print_F_string_formatting_testing.executor": "Run",
@@ -162,7 +161,7 @@
       <workItem from="1732005482294" duration="1899000" />
       <workItem from="1732013730559" duration="5667000" />
       <workItem from="1732088537112" duration="5413000" />
-      <workItem from="1732123355433" duration="2560000" />
+      <workItem from="1732123355433" duration="3908000" />
     </task>
     <servers />
   </component>
@@ -188,6 +187,7 @@
     <SUITE FILE_PATH="coverage/Ohjelmisto2$01_luokkahierarkia_luetaan_lehtia.coverage" NAME="01_luokkahierarkia_luetaan_lehtia Coverage Results" MODIFIED="1730203484540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli11" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$random_testing_1.coverage" NAME="random_testing_1 Coverage Results" MODIFIED="1729850547995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$clear_screen_testing.coverage" NAME="clear_screen_testing Coverage Results" MODIFIED="1729840165227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto2$API_ENDPOINT_testing_1_flask.coverage" NAME="API_ENDPOINT_testing_1_flask Coverage Results" MODIFIED="1732129211077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$03_palohalytys.coverage" NAME="03_palohalytys Coverage Results" MODIFIED="1729953640685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli10" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$01_hissi_liikkuu.coverage" NAME="01_hissi_liikkuu Coverage Results" MODIFIED="1729937928439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli10" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$clear_screen_testing_2.coverage" NAME="clear_screen_testing_2 Coverage Results" MODIFIED="1729840461029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
