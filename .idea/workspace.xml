@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python-test/Class_testing_1_basic_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduuli10/02_talon_hissit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moduuli10/02_talon_hissit.py" afterDir="false" />
-    </list>
+    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +163,7 @@
       <workItem from="1732013730559" duration="5667000" />
       <workItem from="1732088537112" duration="5413000" />
       <workItem from="1732123355433" duration="6236000" />
-      <workItem from="1732172283087" duration="2962000" />
+      <workItem from="1732172283087" duration="3161000" />
     </task>
     <servers />
   </component>

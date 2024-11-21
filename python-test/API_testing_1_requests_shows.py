@@ -1,4 +1,4 @@
-# API Testing 1 - creating requests
+# API Testing 1 - creating requests from TV Show API
 
 import requests
 
