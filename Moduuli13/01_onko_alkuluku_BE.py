@@ -1,4 +1,4 @@
-# Ohjelmisto 2 - Moduuli 13 - Tehtävä 1 - Onko alkuluku backend versio
+# Ohjelmisto 2 - Moduuli 13 - Tehtävä 1 - Onko alkuluku, backend versio
 
 from flask import Flask
 
