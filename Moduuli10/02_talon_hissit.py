@@ -2,15 +2,21 @@
 
 import hissi
 
+
 class Talo:
     def __init__(self, alin: int, ylin: int, kpl: int):
         self.alin = alin
         self.ylin = ylin
         self.kpl = kpl
+        # self.hissit = []
+        # for i in range(self.kpl):
+        #    self.hissit.append(hissi.Hissit(self.alin, self.ylin))
         self.hissit = [hissi.Hissi(self.alin, self.ylin) for _ in range(self.kpl)]
+
     def aja_hissiä(self, hissi: int, kohdekerros: int):
         print(f"Hissi {hissi} liikkuu...")
         self.hissit[hissi].siirry_kerrokseen(kohdekerros)
+
 
 # Main
 

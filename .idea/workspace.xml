@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python-test/API_ENDPOINT_testing_2_JSON.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-test/API_ENDPOINT_testing_3_parameters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-test/API_ENDPOINT_testing_4_Virhekoodit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-test/Class_testing_1_basic_class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-test/API_ENDPOINT_testing_1_flask.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-test/API_ENDPOINT_testing_1_flask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moduuli10/02_talon_hissit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moduuli10/02_talon_hissit.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +60,7 @@
     "Python.API_ENDPOINT_testing_4_Virhekoodit.executor": "Run",
     "Python.API_testing_1.executor": "Run",
     "Python.API_testing_3_error_testing.executor": "Run",
+    "Python.Class_testing_1_basic_class.executor": "Run",
     "Python.Print_F_string_formatting_testing.executor": "Run",
     "Python.clear_screen_testing.executor": "Run",
     "Python.clear_screen_testing_2.executor": "Run",
@@ -167,7 +166,8 @@
       <workItem from="1732005482294" duration="1899000" />
       <workItem from="1732013730559" duration="5667000" />
       <workItem from="1732088537112" duration="5413000" />
-      <workItem from="1732123355433" duration="6161000" />
+      <workItem from="1732123355433" duration="6236000" />
+      <workItem from="1732172283087" duration="2962000" />
     </task>
     <servers />
   </component>
@@ -187,6 +187,7 @@
     <SUITE FILE_PATH="coverage/Ohjelmisto2$Print_F_string_formatting_testing.coverage" NAME="Print_F_string_formatting_testing Coverage Results" MODIFIED="1730023172605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test-2" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$01_chuck_norris_makes_onions_cry.coverage" NAME="01_chuck_norris_makes_onions_cry Coverage Results" MODIFIED="1730376857369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli12" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$API_ENDPOINT_testing_2_JSON.coverage" NAME="API_ENDPOINT_testing_2_JSON Coverage Results" MODIFIED="1732129842909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto2$Class_testing_1_basic_class.coverage" NAME="Class_testing_1_basic_class Coverage Results" MODIFIED="1732174813909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$time_module_testing.coverage" NAME="time_module_testing Coverage Results" MODIFIED="1729839210573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$object_inheritance_testing.coverage" NAME="object-inheritance-testing Coverage Results" MODIFIED="1730201724332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$API_testing_3_error_testing.coverage" NAME="API_testing_3_error_testing Coverage Results" MODIFIED="1732126866781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
