@@ -12,7 +12,7 @@ console.log(vakio);
 alert('Hello JavaScript World from here too!');
 
 const name = prompt('Anna nimesi:', 'Nimi tähän.');
-document.querySelector('#testingpara').innerHTML = 'Hello, ' + name + '!';
+document.querySelector('#testingpara1').innerHTML = 'Hello, ' + name + '!';
 
 const answer = confirm('No miten on? Kyllä vai ei?');
 console.log(answer);
@@ -28,3 +28,8 @@ second = 'morning ';
 third = 'all.';
 all = first + second + third;
 console.log(all);
+
+const nameToo = 'Mr. Skywalker';
+const greeting = `Hello, ${nameToo}`;
+document.querySelector('#testingpara2').innerHTML = greeting;
+
