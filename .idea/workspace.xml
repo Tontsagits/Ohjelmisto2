@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python-test/API_ENDPOINT_testing_5_request_shows.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moduuli13/01_onko_alkuluku_BE.py" beforeDir="false" afterPath="$PROJECT_DIR$/Moduuli13/01_onko_alkuluku_BE.py" afterDir="false" />
-    </list>
+    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +55,7 @@
     "Python.01_hissi_liikkuu.executor": "Run",
     "Python.01_luokkahierarkia_luetaan_lehtia.executor": "Run",
     "Python.01_onko_alkuluku_BE.executor": "Run",
+    "Python.02_mika_lentokenttä.executor": "Run",
     "Python.02_some_nice_weather_we_are_having.executor": "Run",
     "Python.02_talon_hissit.executor": "Run",
     "Python.02_vauhti_kiihtyy.executor": "Run",
@@ -183,6 +180,7 @@
       <workItem from="1732181194721" duration="1382000" />
       <workItem from="1732187563837" duration="40000" />
       <workItem from="1732187780487" duration="2150000" />
+      <workItem from="1732190031038" duration="2988000" />
     </task>
     <servers />
   </component>
@@ -204,7 +202,7 @@
     <SUITE FILE_PATH="coverage/Ohjelmisto2$API_ENDPOINT_testing_2_JSON.coverage" NAME="API_ENDPOINT_testing_2_JSON Coverage Results" MODIFIED="1732181709340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$Class_testing_1_basic_class.coverage" NAME="Class_testing_1_basic_class Coverage Results" MODIFIED="1732174813909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$time_module_testing.coverage" NAME="time_module_testing Coverage Results" MODIFIED="1729839210573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
-    <SUITE FILE_PATH="coverage/Ohjelmisto2$01_onko_alkuluku_BE.coverage" NAME="01_onko_alkuluku_BE Coverage Results" MODIFIED="1732189790561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli13" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto2$01_onko_alkuluku_BE.coverage" NAME="01_onko_alkuluku_BE Coverage Results" MODIFIED="1732190814322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli13" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$object_inheritance_testing.coverage" NAME="object-inheritance-testing Coverage Results" MODIFIED="1730201724332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$API_testing_3_error_testing.coverage" NAME="API_testing_3_error_testing Coverage Results" MODIFIED="1732126866781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$01_Autolle_ominaisuuksia.coverage" NAME="01_Autolle_ominaisuuksia Coverage Results" MODIFIED="1729769186831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli09" />
@@ -216,6 +214,7 @@
     <SUITE FILE_PATH="coverage/Ohjelmisto2$API_ENDPOINT_testing_1_flask.coverage" NAME="API_ENDPOINT_testing_1_flask Coverage Results" MODIFIED="1732129211077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$03_palohalytys.coverage" NAME="03_palohalytys Coverage Results" MODIFIED="1729953640685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli10" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$01_hissi_liikkuu.coverage" NAME="01_hissi_liikkuu Coverage Results" MODIFIED="1729937928439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli10" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto2$02_mika_lentokenttä.coverage" NAME="02_mika_lentokenttä Coverage Results" MODIFIED="1732193494995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli13" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$clear_screen_testing_2.coverage" NAME="clear_screen_testing_2 Coverage Results" MODIFIED="1729840461029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$creating_variable_names_dynamically.coverage" NAME="creating_variable_names_dynamically Coverage Results" MODIFIED="1729948688902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test-2" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$03_auto_kuljee_matkaa.coverage" NAME="03_auto_kuljee_matkaa Coverage Results" MODIFIED="1729771964332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli09" />
