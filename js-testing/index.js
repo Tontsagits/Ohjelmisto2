@@ -322,3 +322,29 @@ const quadraticSumsz = (a, b) => {
   return (a * a + b * b);
 };
 console.log(quadraticSumsz(3, 5));
+
+//
+//
+//
+//
+//
+// BOM handling DOM
+
+const secondz = document.getElementsByTagName('li')[1];  // getElementsByTagname returns an array. The indexes in an array start at zero, so 1 means the second <li> element.
+const seconds = document.querySelectorAll('li')[1];      // the same with querySelectorAll-function
+console.log(secondz);
+console.log(seconds);
+
+const bullets = document.querySelectorAll('li');
+
+for (let bullet of bullets) {
+  bullet.innerHTML = `<b>${bullet.innerHTML}</b>`;
+}
+
+// alternative syntax using array.forEach()
+/*
+bullets.forEach(function (bullet) {
+ bullet.innerHTML = `<b>${bullet.innerHTML}</b>`;
+})
+*/
+
