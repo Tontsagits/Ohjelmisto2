@@ -364,6 +364,10 @@ bullets.forEach(function (bullet) {
 //
 //
 //
+//
+//
+//
+//
 // Select the element in the document with the id 'news' and save the element node as 'u'.
 // Then select all p-elements from the element node 'u' and save the element list as 'p':
 const u = document.getElementById('container');
@@ -386,7 +390,7 @@ console.log(p2);
 //
 //
 //
-// Change the content of an element:
+// Change the content of an HTML element:
 
 document.getElementById('date').innerHTML = '<span class="red">Tuesday</span>';
 
@@ -396,7 +400,7 @@ document.getElementById('date').innerHTML = '<span class="red">Tuesday</span>';
 //
 //
 //
-// Change the value of an attribute:
+// Change the value of an attribute in HTML element:
 
 document.getElementById('logo').src = 'laurealogo.png'; // the attribute name is used as the property
 document.getElementById('logo').setAttribute('src', 'laurealogo.png'); // or setAttribute() function for older browsers
@@ -414,3 +418,38 @@ const html = // to make a multiline string, note the backtick around the string
     `<p>Here is some of text with a picture.</p>
      <p><img src="https://placecats.com/300/200" alt="Cat" title="Picture of a cat."/></p>`;
 div.innerHTML = html; // sets the string 'html' to the HTML content of the selected element
+
+//
+//
+// Same with DOM functions
+
+const div2 = document.querySelector('#example2'); // get element whose id is 'example2'
+
+const i = document.createElement('img');  // create img element
+i.src = 'https://placecats.com/300/200';    // set src attribute
+i.alt = 'Cat';                            // set alt attribute
+i.title = 'Picture of a cat.';          // set title attribute
+
+const t = document.createTextNode('Here is some of text with a picture.');  // create text node
+
+const p5 = document.createElement('p');    // create p element
+p5.appendChild(t);     // add text to p element
+const p6 = document.createElement('p');    // create p element
+p6.appendChild(i);     // add image to p element
+
+div2.appendChild(p5);   // add p element to the selected element from the HTML document
+div2.appendChild(p6);   // add p element to the selected element from the HTML document
+// at this point new HTML will appear in the document.
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
