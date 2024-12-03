@@ -115,3 +115,40 @@ for (let i = 1; i <= 5; i++) {
     console.log(i + ' times ' + j + ' is ' + multiplication + '.');
   }
 }
+
+// LIST ARRAYS
+
+let numbers = []; // vakio, mutatoituva
+numbers = [17, 2, 8];
+
+const names = ['Frank', 'Scott', 'Jasmine', 'Don'];
+
+for (let i = 0; i < names.length; i++) {
+  console.log(`Name: ${names[i]}`);
+}
+
+for (let name of names) {
+  console.log(`Name: ${name}`);
+}
+
+// OBJECT LITERALS (python dictionary)
+
+const student = {
+  firstName: 'Greg',
+  lastName: 'Focker',
+  studentId: '234359',
+  phone: '040 5902123',
+};
+
+const greetings = `Hello, my name is ${student.firstName} ${student.lastName}`;
+const studentInfo = `student number: ${student['studentId']}, phone number: ${student['phone']}`;
+console.log(greetings);
+console.log(studentInfo);
+
+student.address = 'Schoolroad 7';  // adds 'address' property to previous example
+delete student.phone;              // deletes 'phone' property from previous example
+
+console.log(student);
+
+const chosenProperty = 'lastName';
+console.log(student[chosenProperty]);
