@@ -38,7 +38,7 @@ console.log(vakio);
 //
 // alert popup, pysäyttää ohjelman kunnes ok
 
-alert('Hello JavaScript World from here too!');
+alert('Alert! Hello JavaScript World!!!');
 
 //
 //
@@ -144,10 +144,14 @@ console.log(number);
 //
 // Matematiikka objekti Math
 
+console.log('Using Math Object to do some math....');
 console.log(`Squareroot of 3 is...`);
 console.log(Math.sqrt(3));
 console.log(`Tässä numeron 3 neliöjuuri: ${Math.sqrt(3)}`);
-console.log(`Some random numbers:`);
+console.log(`Some random numbers between 0 and 1...`);
+console.log(Math.random());
+console.log(Math.random());
+console.log(Math.random());
 console.log(Math.random());
 console.log(Math.random());
 console.log(Math.random());
@@ -272,6 +276,8 @@ for (let name of names) {
 //
 //
 // OBJECT LITERALS (like Python dictionary)
+
+console.log('This is OBJECT LITERAL! aka a dictionary of sorts...');
 
 const student = {
   firstName: 'Greg',
@@ -414,6 +420,8 @@ console.log(n1); // the global variable is visible everywhere
 //
 //
 // ARRAY as PARAMETER of a FUNCTION
+
+console.log('ARRAYS aka LISTS again now as FUNCTION PARAMETER!');
 
 function grow(array) {
   for (let i = 0; i < array.length; i++) {
@@ -558,6 +566,7 @@ console.log('Loading all LI elements from HTML document and making them BOLD.');
 const bullets = document.querySelectorAll('li');
 
 // Iterate all <li> elements using the forEach function and make the text bold.
+// ADD <b> tags into HTML
 for (let bullet of bullets) {
   bullet.innerHTML = `<b>${bullet.innerHTML}</b>`;
 }
@@ -589,10 +598,10 @@ const p1 = document.getElementById('container').getElementsByTagName('p');
 const p2 = document.querySelectorAll('#container p');
 
 console.log('Here are some HTML elements from the HTML document. Enjoy!');
-console.log(u);
-console.log(p);
-console.log(p1);
-console.log(p2);
+console.log(u); // whole DIV id container
+console.log(p); // HTML collection
+console.log(p1); // HTML collection
+console.log(p2); // Node list
 
 //
 //
