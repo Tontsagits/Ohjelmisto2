@@ -41,3 +41,16 @@ a:hover {
     background-color: lightgrey;
     color: darkred;
 }
+
+.blue {
+    color: dodgerblue;
+}
+
+.red {
+    color: darkred;
+}
+
+#logo {
+    display: block;
+    width: 20%;
+}

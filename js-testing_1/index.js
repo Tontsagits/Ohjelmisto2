@@ -330,13 +330,25 @@ console.log(quadraticSumsz(3, 5));
 //
 // BOM handling DOM
 
+//
+//
+//
+// Select the 2nd item (i.e. <li>) in the list <ul>:
+
 const secondz = document.getElementsByTagName('li')[1];  // getElementsByTagname returns an array. The indexes in an array start at zero, so 1 means the second <li> element.
 const seconds = document.querySelectorAll('li')[1];      // the same with querySelectorAll-function
 console.log(secondz);
 console.log(seconds);
 
+//
+//
+//
+//
+//
+// select all LI elements
 const bullets = document.querySelectorAll('li');
 
+// Iterate all <li> elements using the forEach function and make the text bold.
 for (let bullet of bullets) {
   bullet.innerHTML = `<b>${bullet.innerHTML}</b>`;
 }
@@ -348,3 +360,43 @@ bullets.forEach(function (bullet) {
 })
 */
 
+//
+//
+//
+//
+// Select the element in the document with the id 'news' and save the element node as 'u'.
+// Then select all p-elements from the element node 'u' and save the element list as 'p':
+const u = document.getElementById('container');
+const p = u.getElementsByTagName('p');
+
+// the same can also be written without an intermediate variable
+const p1 = document.getElementById('container').getElementsByTagName('p');
+
+// or with a single command using the CSS selector
+const p2 = document.querySelectorAll('#container p');
+
+console.log(u);
+console.log(p);
+console.log(p1);
+console.log(p2);
+
+//
+//
+//
+//
+//
+//
+// Change the content of an element:
+
+document.getElementById('date').innerHTML = '<span class="red">Tuesday</span>';
+
+//
+//
+//
+//
+//
+//
+// Change the value of an attribute:
+
+document.getElementById('logo').src = 'laurealogo.png'; // the attribute name is used as the property
+document.getElementById('logo').setAttribute('src', 'laurealogo.png'); // or setAttribute() function for older browsers
