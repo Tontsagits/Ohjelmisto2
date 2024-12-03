@@ -25,6 +25,11 @@ const name = prompt('Anna nimesi:', 'Nimi tähän.');
 document.querySelector('#testingpara1').innerHTML = 'Hello, ' + name + '!';
 
 const answer = confirm('No miten on? Kyllä vai ei?');
+if (answer) {
+  console.log(`Nice! Your answer is ${answer}`);
+} else {
+  console.log(`Too bad your answer is ${answer}`);
+}
 console.log(answer);
 console.log(typeof answer);
 
@@ -52,7 +57,7 @@ const nameToo = 'Mr. Skywalker';
 const greeting = `Hello, ${nameToo}`;
 document.querySelector('#testingpara2').innerHTML = greeting;
 
-//  operaattoreita
+//  OPERAATTOREITA plus ja miinus
 
 let number = 3;
 number = number * 7;     // the value is now 21
@@ -152,3 +157,33 @@ console.log(student);
 
 const chosenProperty = 'lastName';
 console.log(student[chosenProperty]);
+
+// FUNKTIOT ilman paluuarvoa
+
+function greet() {
+  console.log('Well, hello!');
+  return;
+}
+
+greet();
+
+function greets(text, times) {
+  for (let i = 1; i <= times; i++) {
+    console.log(text + ' ' + i + '. time!');
+  }
+  return;
+}
+
+greets('Hi', 5);
+
+// FUNKTIOT paluuarvoilla
+
+function quadraticSum(first, second) {
+  const result = first * first + second * second;
+  return result;
+}
+
+const num1 = prompt('Enter 1. number.');
+const num2 = prompt('Enter 2. number.');
+const quad = quadraticSum(num1, num2);
+console.log('The quadratic sum of ' + num1 + ' and ' + num2 + ' is ' + quad);
