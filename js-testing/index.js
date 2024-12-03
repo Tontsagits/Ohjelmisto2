@@ -187,3 +187,33 @@ const num1 = prompt('Enter 1. number.');
 const num2 = prompt('Enter 2. number.');
 const quad = quadraticSum(num1, num2);
 console.log('The quadratic sum of ' + num1 + ' and ' + num2 + ' is ' + quad);
+
+// GLOBAL vs LOCAL variables
+
+const n1 = 3; // GLOBAL variable
+
+function hello() {
+  let n2 = 5; // an internal variable of a function
+
+  if (n2 > 0) {
+    const n3 = 8; // an internal variable of a block
+    let n4 = 9; // an internal variable of a function
+    console.log(n3);
+    console.log(n4);
+  }
+  console.log(n1); // global variable is visible everywhere
+  console.log(n2); // the internal variable is available inside the function
+  //console.log(n3); -- an internal variable of a block is not available outside the function
+  console.log(n4); // the internal variable of the function is available inside the function
+  return;
+}
+
+hello();
+
+console.log(n1); // the global variable is visible everywhere
+//console.log(n2); -- the function's internal variable does not appear outside the function
+//console.log(n3); -- the internal variable of a block does not appear outside the block
+//console.log(n4); -- the function's internal variable does not appear outside the function
+
+
+
