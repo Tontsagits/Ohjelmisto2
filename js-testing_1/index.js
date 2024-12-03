@@ -1,9 +1,15 @@
 'use strict';
 
-// Konsoli
+//
+//
+//
+// Konsoli tulostus
 
 console.log('Hello Javascript World!');
 
+//
+//
+//
 //
 //
 //
@@ -11,29 +17,39 @@ console.log('Hello Javascript World!');
 
 let muuttuja;
 muuttuja = 'Hank Moody';
-console.log(muuttuja);
+console.log(`Hello, ${muuttuja}`);
 
+//
+//
+//
 //
 //
 //
 // Vakio
 
-const vakio = 'Another Hank Moody';
+const vakio = 'Oh, Another Hank Moody';
 console.log(vakio);
 
 //
 //
 //
-// alert popup
+//
+//
+//
+// alert popup, pysäyttää ohjelman kunnes ok
 
 alert('Hello JavaScript World from here too!');
 
 //
 //
 //
+//
+//
+//
 // Kysytään tietoja promptilla
 
 const name = prompt('Anna nimesi:', 'Nimi tähän.');
+console.log((`Inserting to HTML: 'Hello, ${name}!'`));
 document.querySelector('#testingpara1').innerHTML = 'Hello, ' + name + '!';
 
 const answer = confirm('No miten on? Kyllä vai ei?');
@@ -48,7 +64,13 @@ console.log(typeof answer);
 //
 //
 //
-// string vai numero PARSE ja tulostus
+//
+//
+//
+//
+//
+//
+// String vai Numero PARSE ja tulostus
 
 const ageInt = parseInt(prompt('Anna ikäsi:', 'Ikä tähän.'));
 if (ageInt < 30) {
@@ -59,6 +81,12 @@ if (ageInt < 30) {
 console.log(ageInt);
 console.log(typeof ageInt);
 
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -73,41 +101,70 @@ console.log(all);
 
 const nameToo = 'Mr. Skywalker';
 const greeting = `Hello, ${nameToo}`;
+console.log(`Inserting to HTML: ${greeting}`);
 document.querySelector('#testingpara2').innerHTML = greeting;
 
+//
+//
+//
+//
+//
+//
 //
 //
 //
 //  OPERAATTOREITA plus ja miinus
 
 let number = 3;
+console.log(`Number is ${number}`);
 number = number * 7;     // the value is now 21
+console.log(`Now number is ${number}`);
 number = 1 + number / 2;   // the value is now 11.5
+console.log(`Now number is ${number}`);
 console.log(number);
 
 //  operaattoreita
 
 number = 3;
+console.log(`Now number is ${number}`);
 number++;     // the value is now 4
-console.log(number);
+console.log(`Now number is ${number}`);
 number--;     // the value is again 3
+console.log(`Now number is ${number}`);
 console.log(number);
 
 //
 //
 //
-// Matematiikka objekti
+//
+//
+//
+//
+//
+//
+// Matematiikka objekti Math
 
+console.log(`Squareroot of 3 is...`);
 console.log(Math.sqrt(3));
-console.log(Math.random());
 console.log(`Tässä numeron 3 neliöjuuri: ${Math.sqrt(3)}`);
+console.log(`Some random numbers:`);
+console.log(Math.random());
+console.log(Math.random());
+console.log(Math.random());
 
+//
+//
+//
+//
+//
+//
 //
 //
 //
 // määrätyt vakiot Designated Constants
 
 const multiplier = 4.1868;
+console.log(`Multiplier number is ${multiplier}`);
 const k1 = prompt('Give the amount of energy for lunch (kcal).');
 const k2 = prompt('Enter the amount of energy for dinner(kcal).');
 
@@ -119,6 +176,12 @@ console.log(`At breakfast you got ${j1} kJ and at dinner you got ${j2} kJ.`);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 // WHILE loop, tarkastus aina iteraatiota ENNEN eli ALUSSA while rivillä
 
 let weight = prompt('Enter weight (kg) (must be positive).');
@@ -127,22 +190,34 @@ while (weight <= 0) {
 }
 console.log('You entered the weight: ' + weight + ' kg.');
 
+//
+//
+//
 // DO WHILE loops, TARKASTUS LOPUSSA eli WHILE rivillä
 
 let result;
 do {
   result = Math.floor(Math.random() * 6) + 1;
+  console.log('some random numbers between 1 and 6...');
   console.log(result);
 } while (result < 6);
 
+//
+//
+//
 // FOR loops
 
+console.log('Numbers from 1 to 10...');
 for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
 
+//
+//
+//
 // Nested FOR loops
 
+console.log('Some multiplication from 1 to 5...');
 let multiplication;
 for (let i = 1; i <= 5; i++) {
   for (let j = 1; j <= 5; j++) {
@@ -154,25 +229,49 @@ for (let i = 1; i <= 5; i++) {
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // LIST ARRAYS
+
+console.log('ARRAYS aka LISTS!');
 
 let numbers = []; // vakio, mutatoituva
 numbers = [17, 2, 8];
 
+for (let i = 0; i < numbers.length; i++) {
+  console.log(`Array item: ${numbers[i]}`);
+}
+
 const names = ['Frank', 'Scott', 'Jasmine', 'Don'];
 
 for (let i = 0; i < names.length; i++) {
-  console.log(`Name: ${names[i]}`);
+  console.log(`Names: ${names[i]}`);
 }
 
 for (let name of names) {
-  console.log(`Name: ${name}`);
+  console.log(`Names again: ${name}`);
 }
 
 //
 //
 //
-// OBJECT LITERALS (python dictionary)
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// OBJECT LITERALS (like Python dictionary)
 
 const student = {
   firstName: 'Greg',
@@ -186,18 +285,39 @@ const studentInfo = `student number: ${student['studentId']}, phone number: ${st
 console.log(greetings);
 console.log(studentInfo);
 
+console.log('Adding address to student...');
 student.address = 'Schoolroad 7';  // adds 'address' property to previous example
+console.log('And removing phone number...');
 delete student.phone;              // deletes 'phone' property from previous example
 
+console.log('Updated student infos...');
 console.log(student);
 
 const chosenProperty = 'lastName';
 console.log(student[chosenProperty]);
+console.log(`Students lastname is: ${student[chosenProperty]}`);
 
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // FUNKTIOT ilman paluuarvoa
+
+console.log('FUNCTIONS!');
 
 function greet() {
   console.log('Well, hello!');
@@ -218,7 +338,12 @@ greets('Hi', 5);
 //
 //
 //
+//
+//
+//
 // FUNKTIOT paluuarvoilla
+
+console.log('Quadratic Sum function as example...');
 
 function quadraticSum(first, second) {
   const result = first * first + second * second;
@@ -227,9 +352,22 @@ function quadraticSum(first, second) {
 
 const num1 = prompt('Enter 1. number.');
 const num2 = prompt('Enter 2. number.');
+console.log('Calling quadraticSum function...');
 const quad = quadraticSum(num1, num2);
 console.log('The quadratic sum of ' + num1 + ' and ' + num2 + ' is ' + quad);
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -263,6 +401,18 @@ console.log(n1); // the global variable is visible everywhere
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // ARRAY as PARAMETER of a FUNCTION
 
 function grow(array) {
@@ -272,9 +422,17 @@ function grow(array) {
   return;
 }
 
-const numberz = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+const numberz = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21];
+
+console.log('Calling function numberz...');
 grow(numberz);
+
+// tulostetaan eka ja toka ja kolmas alkio arrayssa
+console.log('Printing to console: 1st, 2nd and 3rd alkio for array...');
 console.log(numberz[0] + ' ' + numberz[1] + ' ' + numberz[2]);
+
+// tulostetaan KAIKKI alkiot listalta
+console.log('Printing to console all members of the array...');
 for (let i = 0; i < numberz.length; i++) {
   console.log(`Listalla on luku: ${numberz[i]}`);
 }
@@ -282,7 +440,15 @@ for (let i = 0; i < numberz.length; i++) {
 //
 //
 //
+//
+//
+//
+//
+//
+//
 // LOTTO ARVONTA FUNKTIO JOKA LUO LISTAN
+
+console.log('Creating some funky lottery numbers for ya all.......');
 
 function doLottery(numbers, num) {
   const row = [];
@@ -308,15 +474,35 @@ const lottery = doLottery(40, 7);
 for (let i = 0; i < lottery.length; i++) {
   console.log(lottery[i]);
 }
+console.log('Did you win?');
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
 // NUOLIFUNKTIOT eli ARROW FUNTIONS
 
+console.log('ARROW FUNCTIONS!');
+
+console.log('quadSumz using ArrowFunction...');
 const quadraticSumz = (a, b) => (a * a + b * b);
 console.log(quadraticSumz(3, 5));
 
+console.log('Another quadSumsz using ArrowFunction structure...');
 const quadraticSumsz = (a, b) => {
   console.log('quadraticSum was called.');
   return (a * a + b * b);
@@ -328,15 +514,37 @@ console.log(quadraticSumsz(3, 5));
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // BOM handling DOM
+
+console.log('Now we do some BOM and DOM stuff. Nice!');
 
 //
 //
 //
 // Select the 2nd item (i.e. <li>) in the list <ul>:
 
-const secondz = document.getElementsByTagName('li')[1];  // getElementsByTagname returns an array. The indexes in an array start at zero, so 1 means the second <li> element.
-const seconds = document.querySelectorAll('li')[1];      // the same with querySelectorAll-function
+// getElementsByTagname returns an array.
+// The indexes in an array start at zero, so 1 means the second <li> element.
+const secondz = document.getElementsByTagName('li')[1];
+// the same with querySelectorAll-function
+const seconds = document.querySelectorAll('li')[1];
+
+console.log('Here are some HTMl LI elements from the document...');
 console.log(secondz);
 console.log(seconds);
 
@@ -346,6 +554,7 @@ console.log(seconds);
 //
 //
 // select all LI elements
+console.log('Loading all LI elements from HTML document and making them BOLD.');
 const bullets = document.querySelectorAll('li');
 
 // Iterate all <li> elements using the forEach function and make the text bold.
@@ -368,7 +577,7 @@ bullets.forEach(function (bullet) {
 //
 //
 //
-// Select the element in the document with the id 'news' and save the element node as 'u'.
+// Select the element in the document with the id 'news' 'container' and save the element node as 'u'.
 // Then select all p-elements from the element node 'u' and save the element list as 'p':
 const u = document.getElementById('container');
 const p = u.getElementsByTagName('p');
@@ -379,6 +588,7 @@ const p1 = document.getElementById('container').getElementsByTagName('p');
 // or with a single command using the CSS selector
 const p2 = document.querySelectorAll('#container p');
 
+console.log('Here are some HTML elements from the HTML document. Enjoy!');
 console.log(u);
 console.log(p);
 console.log(p1);
@@ -392,6 +602,7 @@ console.log(p2);
 //
 // Change the content of an HTML element:
 
+console.log('Setting blue Monday to red Tuesday inside HTML....');
 document.getElementById('date').innerHTML = '<span class="red">Tuesday</span>';
 
 //
@@ -402,9 +613,23 @@ document.getElementById('date').innerHTML = '<span class="red">Tuesday</span>';
 //
 // Change the value of an attribute in HTML element:
 
-document.getElementById('logo').src = 'laurealogo.png'; // the attribute name is used as the property
-document.getElementById('logo').setAttribute('src', 'laurealogo.png'); // or setAttribute() function for older browsers
+console.log(
+    'Changing the Metropolia logo to Laurea logo inside HTML document... Cool!');
+// the attribute name is used as the property
+document.getElementById('logo').src = 'laurealogo.png';
+// or setAttribute() function for older browsers
+document.getElementById('logo').setAttribute('src', 'laurealogo.png');
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -413,8 +638,13 @@ document.getElementById('logo').setAttribute('src', 'laurealogo.png'); // or set
 //
 // Adding HTML to a document:
 
-const div = document.querySelector('#example'); // get element whose id is 'example'
-const html = // to make a multiline string, note the backtick around the string
+console.log(
+    'Add some text and a picture of a cat into HTML document to a DIV...');
+
+// get element whose id is 'example'
+const div = document.querySelector('#example');
+// to make a multiline string, note the backtick around the string
+const html =
     `<p>Here is some of text with a picture.</p>
      <p><img src="https://placecats.com/300/200" alt="Cat" title="Picture of a cat."/></p>`;
 div.innerHTML = html; // sets the string 'html' to the HTML content of the selected element
@@ -423,18 +653,25 @@ div.innerHTML = html; // sets the string 'html' to the HTML content of the selec
 //
 // Same with DOM functions
 
-const div2 = document.querySelector('#example2'); // get element whose id is 'example2'
+console.log(
+    'Add some text and a picture of a cat into HTML document to another DIV...');
+
+// get element whose id is 'example2'
+const div2 = document.querySelector('#example2');
 
 const i = document.createElement('img');  // create img element
 i.src = 'https://placecats.com/300/200';    // set src attribute
 i.alt = 'Cat';                            // set alt attribute
 i.title = 'Picture of a cat.';          // set title attribute
 
-const t = document.createTextNode('Here is some of text with a picture.');  // create text node
+// create text node
+const t = document.createTextNode('Here is some of text with a picture.');
 
-const p5 = document.createElement('p');    // create p element
+// create p element
+const p5 = document.createElement('p');
 p5.appendChild(t);     // add text to p element
-const p6 = document.createElement('p');    // create p element
+// create another p element
+const p6 = document.createElement('p');
 p6.appendChild(i);     // add image to p element
 
 div2.appendChild(p5);   // add p element to the selected element from the HTML document
