@@ -4,21 +4,33 @@
 
 console.log('Hello Javascript World!');
 
+//
+//
+//
 // Muuttuja
 
 let muuttuja;
 muuttuja = 'Hank Moody';
 console.log(muuttuja);
 
+//
+//
+//
 // Vakio
 
 const vakio = 'Another Hank Moody';
 console.log(vakio);
 
+//
+//
+//
 // alert popup
 
 alert('Hello JavaScript World from here too!');
 
+//
+//
+//
 // Kysytään tietoja promptilla
 
 const name = prompt('Anna nimesi:', 'Nimi tähän.');
@@ -33,6 +45,9 @@ if (answer) {
 console.log(answer);
 console.log(typeof answer);
 
+//
+//
+//
 // string vai numero PARSE ja tulostus
 
 const ageInt = parseInt(prompt('Anna ikäsi:', 'Ikä tähän.'));
@@ -44,6 +59,9 @@ if (ageInt < 30) {
 console.log(ageInt);
 console.log(typeof ageInt);
 
+//
+//
+//
 // Muuttujia stringissä yhdistäminen
 
 let first, second, third, all;
@@ -57,6 +75,9 @@ const nameToo = 'Mr. Skywalker';
 const greeting = `Hello, ${nameToo}`;
 document.querySelector('#testingpara2').innerHTML = greeting;
 
+//
+//
+//
 //  OPERAATTOREITA plus ja miinus
 
 let number = 3;
@@ -72,12 +93,18 @@ console.log(number);
 number--;     // the value is again 3
 console.log(number);
 
+//
+//
+//
 // Matematiikka objekti
 
 console.log(Math.sqrt(3));
 console.log(Math.random());
 console.log(`Tässä numeron 3 neliöjuuri: ${Math.sqrt(3)}`);
 
+//
+//
+//
 // määrätyt vakiot Designated Constants
 
 const multiplier = 4.1868;
@@ -89,6 +116,9 @@ const j2 = multiplier * k2;
 
 console.log(`At breakfast you got ${j1} kJ and at dinner you got ${j2} kJ.`);
 
+//
+//
+//
 // WHILE loop, tarkastus aina iteraatiota ENNEN eli ALUSSA while rivillä
 
 let weight = prompt('Enter weight (kg) (must be positive).');
@@ -121,6 +151,9 @@ for (let i = 1; i <= 5; i++) {
   }
 }
 
+//
+//
+//
 // LIST ARRAYS
 
 let numbers = []; // vakio, mutatoituva
@@ -136,6 +169,9 @@ for (let name of names) {
   console.log(`Name: ${name}`);
 }
 
+//
+//
+//
 // OBJECT LITERALS (python dictionary)
 
 const student = {
@@ -158,6 +194,9 @@ console.log(student);
 const chosenProperty = 'lastName';
 console.log(student[chosenProperty]);
 
+//
+//
+//
 // FUNKTIOT ilman paluuarvoa
 
 function greet() {
@@ -176,6 +215,9 @@ function greets(text, times) {
 
 greets('Hi', 5);
 
+//
+//
+//
 // FUNKTIOT paluuarvoilla
 
 function quadraticSum(first, second) {
@@ -188,6 +230,9 @@ const num2 = prompt('Enter 2. number.');
 const quad = quadraticSum(num1, num2);
 console.log('The quadratic sum of ' + num1 + ' and ' + num2 + ' is ' + quad);
 
+//
+//
+//
 // GLOBAL vs LOCAL variables
 
 const n1 = 3; // GLOBAL variable
@@ -197,14 +242,14 @@ function hello() {
 
   if (n2 > 0) {
     const n3 = 8; // an internal variable of a block
-    let n4 = 9; // an internal variable of a function
+    const n4 = 9; // an internal variable of a function
     console.log(n3);
     console.log(n4);
   }
   console.log(n1); // global variable is visible everywhere
   console.log(n2); // the internal variable is available inside the function
   //console.log(n3); -- an internal variable of a block is not available outside the function
-  console.log(n4); // the internal variable of the function is available inside the function
+  // console.log(n4); // the internal variable of the function is available inside the function
   return;
 }
 
@@ -215,5 +260,65 @@ console.log(n1); // the global variable is visible everywhere
 //console.log(n3); -- the internal variable of a block does not appear outside the block
 //console.log(n4); -- the function's internal variable does not appear outside the function
 
+//
+//
+//
+// ARRAY as PARAMETER of a FUNCTION
 
+function grow(array) {
+  for (let i = 0; i < array.length; i++) {
+    array[i]++;
+  }
+  return;
+}
 
+const numberz = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+grow(numberz);
+console.log(numberz[0] + ' ' + numberz[1] + ' ' + numberz[2]);
+for (let i = 0; i < numberz.length; i++) {
+  console.log(`Listalla on luku: ${numberz[i]}`);
+}
+
+//
+//
+//
+// LOTTO ARVONTA FUNKTIO JOKA LUO LISTAN
+
+function doLottery(numbers, num) {
+  const row = [];
+  let r;
+  for (let i = 0; i < num; i++) {
+    let ok = false;
+
+    while (!ok) {
+      ok = true;
+      r = Math.floor(Math.random() * numbers) + 1;
+      for (let j = 0; j < i + 1; j++) {
+        if (row [j] === r) {
+          ok = false;
+        }
+      }
+    }
+    row[i] = r;
+  }
+  return row;
+}
+
+const lottery = doLottery(40, 7);
+for (let i = 0; i < lottery.length; i++) {
+  console.log(lottery[i]);
+}
+
+//
+//
+//
+// NUOLIFUNKTIOT eli ARROW FUNTIONS
+
+const quadraticSumz = (a, b) => (a * a + b * b);
+console.log(quadraticSumz(3, 5));
+
+const quadraticSumsz = (a, b) => {
+  console.log('quadraticSum was called.');
+  return (a * a + b * b);
+};
+console.log(quadraticSumsz(3, 5));
