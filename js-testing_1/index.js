@@ -400,3 +400,17 @@ document.getElementById('date').innerHTML = '<span class="red">Tuesday</span>';
 
 document.getElementById('logo').src = 'laurealogo.png'; // the attribute name is used as the property
 document.getElementById('logo').setAttribute('src', 'laurealogo.png'); // or setAttribute() function for older browsers
+
+//
+//
+//
+//
+//
+//
+// Adding HTML to a document:
+
+const div = document.querySelector('#example'); // get element whose id is 'example'
+const html = // to make a multiline string, note the backtick around the string
+    `<p>Here is some of text with a picture.</p>
+     <p><img src="https://placecats.com/300/200" alt="Cat" title="Picture of a cat."/></p>`;
+div.innerHTML = html; // sets the string 'html' to the HTML content of the selected element
