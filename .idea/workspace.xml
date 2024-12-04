@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="" />
+    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Module1/t2/t2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t2/t2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t2/t2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t2/t2.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,59 +49,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.example.html.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_Autolle_ominaisuuksia.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_chuck_norris_makes_onions_cry.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_hissi_liikkuu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_luokkahierarkia_luetaan_lehtia.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_onko_alkuluku_BE.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_mika_lentokenttä.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_some_nice_weather_we_are_having.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_talon_hissit.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_vauhti_kiihtyy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_auto_kuljee_matkaa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_palohalytys.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_ajetaan_kilpaa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_autokilpailu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.API_ENDPOINT_testing_1_flask.executor&quot;: &quot;Run&quot;,
-    &quot;Python.API_ENDPOINT_testing_2_JSON.executor&quot;: &quot;Run&quot;,
-    &quot;Python.API_ENDPOINT_testing_3_parameters.executor&quot;: &quot;Run&quot;,
-    &quot;Python.API_ENDPOINT_testing_4_Virhekoodit.executor&quot;: &quot;Run&quot;,
-    &quot;Python.API_testing_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.API_testing_3_error_testing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Class_testing_1_basic_class.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Print_F_string_formatting_testing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.clear_screen_testing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.clear_screen_testing_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.creating_variable_names_dynamically.executor&quot;: &quot;Run&quot;,
-    &quot;Python.object-association-testing-2_temp_association.executor&quot;: &quot;Run&quot;,
-    &quot;Python.object-inheritance-testing-2_multiinhe.executor&quot;: &quot;Run&quot;,
-    &quot;Python.object-inheritance-testing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.object-testing-dynamic-creation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.object-testing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.object-testing_class-with_methods.executor&quot;: &quot;Run&quot;,
-    &quot;Python.object-testing_class_with_properties_constructor.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pause_testing_with_input.executor&quot;: &quot;Run&quot;,
-    &quot;Python.random_testing_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.time_module_testing.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tonts/PyCharmProjects/Ohjelmisto2&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.example.html.executor": "Run",
+    "Python.01_Autolle_ominaisuuksia.executor": "Run",
+    "Python.01_chuck_norris_makes_onions_cry.executor": "Run",
+    "Python.01_hissi_liikkuu.executor": "Run",
+    "Python.01_luokkahierarkia_luetaan_lehtia.executor": "Run",
+    "Python.01_onko_alkuluku_BE.executor": "Run",
+    "Python.02_mika_lentokenttä.executor": "Run",
+    "Python.02_some_nice_weather_we_are_having.executor": "Run",
+    "Python.02_talon_hissit.executor": "Run",
+    "Python.02_vauhti_kiihtyy.executor": "Run",
+    "Python.03_auto_kuljee_matkaa.executor": "Run",
+    "Python.03_palohalytys.executor": "Run",
+    "Python.04_ajetaan_kilpaa.executor": "Run",
+    "Python.04_autokilpailu.executor": "Run",
+    "Python.API_ENDPOINT_testing_1_flask.executor": "Run",
+    "Python.API_ENDPOINT_testing_2_JSON.executor": "Run",
+    "Python.API_ENDPOINT_testing_3_parameters.executor": "Run",
+    "Python.API_ENDPOINT_testing_4_Virhekoodit.executor": "Run",
+    "Python.API_testing_1.executor": "Run",
+    "Python.API_testing_3_error_testing.executor": "Run",
+    "Python.Class_testing_1_basic_class.executor": "Run",
+    "Python.Print_F_string_formatting_testing.executor": "Run",
+    "Python.clear_screen_testing.executor": "Run",
+    "Python.clear_screen_testing_2.executor": "Run",
+    "Python.creating_variable_names_dynamically.executor": "Run",
+    "Python.object-association-testing-2_temp_association.executor": "Run",
+    "Python.object-inheritance-testing-2_multiinhe.executor": "Run",
+    "Python.object-inheritance-testing.executor": "Run",
+    "Python.object-testing-dynamic-creation.executor": "Run",
+    "Python.object-testing.executor": "Run",
+    "Python.object-testing_class-with_methods.executor": "Run",
+    "Python.object-testing_class_with_properties_constructor.executor": "Run",
+    "Python.pause_testing_with_input.executor": "Run",
+    "Python.random_testing_1.executor": "Run",
+    "Python.time_module_testing.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/tonts/PyCharmProjects/Ohjelmisto2/Module1/t2",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module1\t2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module2\t1" />
       <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\HTML-CSS-Assignment\images" />
@@ -191,7 +197,7 @@
       <workItem from="1733242079769" duration="3717000" />
       <workItem from="1733294907370" duration="3376000" />
       <workItem from="1733324092519" duration="1556000" />
-      <workItem from="1733331906333" duration="624000" />
+      <workItem from="1733331906333" duration="998000" />
     </task>
     <servers />
   </component>
