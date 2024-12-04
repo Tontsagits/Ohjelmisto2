@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Module1/t1/t1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/t1/t1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t1/t1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/t1/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t1/t1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/t2/t2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t2/t2.html" afterDir="false" />
-    </list>
+    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,10 +14,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -197,7 +191,7 @@
       <workItem from="1733242079769" duration="3717000" />
       <workItem from="1733294907370" duration="3376000" />
       <workItem from="1733324092519" duration="1556000" />
-      <workItem from="1733331906333" duration="315000" />
+      <workItem from="1733331906333" duration="624000" />
     </task>
     <servers />
   </component>
