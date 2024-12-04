@@ -114,6 +114,7 @@ document.querySelector('#testingpara2').innerHTML = greeting;
 //
 //
 //  OPERAATTOREITA plus ja miinus
+// yhteenlasku, kertolasku, jakolasku
 
 let number = 3;
 console.log(`Number is ${number}`);
@@ -124,12 +125,30 @@ console.log(`Now number is ${number}`);
 console.log(number);
 
 //  operaattoreita
+//
+//
+//
+// yhteenlasku, vähennyslasku
 
 number = 3;
 console.log(`Now number is ${number}`);
 number++;     // the value is now 4
 console.log(`Now number is ${number}`);
 number--;     // the value is again 3
+console.log(`Now number is ${number}`);
+console.log(number);
+
+//
+// yhteenlasku, vähennyslasku, kertolasku, jakolasku
+
+number = 3;
+number *= 2;    // the value is now 6
+console.log(`Now number is ${number}`);
+number /= 3;    // the value is now 2
+console.log(`Now number is ${number}`);
+number += 7;   // the value is now 9
+console.log(`Now number is ${number}`);
+number -= 8;    // the value is now 1
 console.log(`Now number is ${number}`);
 console.log(number);
 
@@ -698,4 +717,112 @@ div2.appendChild(p6);   // add p element to the selected element from the HTML d
 //
 //
 //
+// EVENT HANDLING
+
+const button = document.querySelector('button');
+button.addEventListener('click', function(evt) {
+      alert('Element ' + evt.currentTarget.tagName + ' was clicked');
+    },
+);
+
+// VOI OLLA MYÖS VIITTAUS FUNKTIOON
+/*
+const button = document.querySelector('button');
+
+function popup(evt){
+  alert('Element ' + evt.currentTarget.tagName + ' was clicked');
+}
+
+button.addEventListener('click', popup);
+ */
+
+const nappi = document.querySelector('button');
+
+function A(evt) {
+  alert('This is function A');
+  nappi.removeEventListener('click', A);
+  nappi.addEventListener('click', B);
+}
+
+function B(evt) {
+  alert('This is function B');
+}
+
+nappi.addEventListener('click', A);
+
 //
+//
+//
+//
+// FORM EVENTS
+//
+
+// select the elements
+const form = document.querySelector('form');
+const fName = document.querySelector('input[name=fName]');
+const lName = document.querySelector('input[name=lName]');
+const p7 = document.getElementById('match');
+
+// When the form is submitted...
+form.addEventListener('submit', function(evt) {
+  // ... prevent the default action.
+  evt.preventDefault();
+  // Here you can check, for example, whether the fields on the form have been filled in correctly,
+  // after which it could be sent using the fetch method, for example
+  // However, for now, let's print the user input as an example.
+  p7.innerText = `Your name is ${fName.value} ${lName.value}`;
+});
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// AJAX
+// Asynchronous data transfer
+//
+
+console.log('the script starts');
+
+function synchronousFunction() {
+  let number = 1;
+  for (let i = 1; i < 100000; i++) {
+    number += i;
+    console.log('synchronousFunction running');
+  }
+  console.log('regular function complete', number);
+}
+
+// asynchronous function is defined by the async keyword
+async function asynchronousFunction() {
+  console.log('asynchronous download begins');
+  try {                    // error handling: try/catch/finally
+// starting data download, fetch returns a promise which contains an object of type 'response'
+    const response = await fetch('http://127.0.0.1:3000/airport/00A');
+// modify the data retrieved from the response object using the json() function
+    const jsonData = await response.json();
+    console.log(jsonData.ICAO, jsonData.Name);    // log the result to the console
+  } catch (error) {
+    console.log(error.message);
+// finally = this is executed anyway, whether the execution was successful or not
+  } finally {
+    console.log('asynchronous load complete');
+  }
+}
+
+synchronousFunction();
+asynchronousFunction();
+
+console.log('the script ends');
