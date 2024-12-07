@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="" />
+    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Module1/t8_leap_year/t8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/t8_leap_year/t8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/t8_leap_year/t8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t1/t1.css" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t1_console_log/t1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t1/t1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t1_console_log/t1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t1/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t1_console_log/t1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t2/t2.css" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t2_prompt_use/t2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t2/t2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t2_prompt_use/t2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t2/t2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t2_prompt_use/t2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t3/t3.css" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t3_3_ints_to_html/t3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t3/t3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t3_3_ints_to_html/t3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t3/t3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t3_3_ints_to_html/t3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t4/t4.css" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t4_random_harry/t4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t4/t4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t4_random_harry/t4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t4/t4.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t4_random_harry/t4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t5/t5.css" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t5_leap_year/t5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t5/t5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t5_leap_year/t5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t5/t5.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t5_leap_year/t5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t6/t6.css" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t6_confirm_squareroot_with_Math/t6.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t6/t6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t6_confirm_squareroot_with_Math/t6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t6/t6.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t6_confirm_squareroot_with_Math/t6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t7/t7.css" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t7_dice_rolls/t7.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t7/t7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t7_dice_rolls/t7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/t7/t7.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/t7_dice_rolls/t7.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +113,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/tonts/PyCharmProjects/Ohjelmisto2/Module1/t7",
+    "last_opened_file_path": "C:/Users/tonts/PyCharmProjects/Ohjelmisto2/Module1/t8",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -100,11 +126,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module1\t8" />
       <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module1\t7" />
       <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module1\t6" />
       <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module1\t5" />
       <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module1\t4" />
-      <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module1\t3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module2\t1" />
@@ -199,6 +225,7 @@
       <workItem from="1733294907370" duration="3376000" />
       <workItem from="1733324092519" duration="1556000" />
       <workItem from="1733331906333" duration="8597000" />
+      <workItem from="1733581691260" duration="6521000" />
     </task>
     <servers />
   </component>
