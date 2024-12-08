@@ -1,5 +1,7 @@
 'use strict';
 
+// Tämä koodi oli jo valmiina?
+
 const students = [
   {
     name: 'John',
@@ -15,6 +17,8 @@ const students = [
   },
 ];
 
+// Tämä esimerkki ilman createElement metodia
+// Käyttäen innerHTML metodia jolla syötetään koodia
 /*
 const select = document.querySelector('#target');
 for (const student of students) {
@@ -23,6 +27,7 @@ for (const student of students) {
 }
 */
 
+// Tämä taas createElement metodilla
 const select = document.querySelector('#target');
 for (const student of students) {
   const option = document.createElement('option');
