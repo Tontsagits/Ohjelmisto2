@@ -1,8 +1,8 @@
 'use strict';
 
-function even(arr) {
+function even(array) {
   const evenNumbers = [];
-  for (let numero of arr) {
+  for (let numero of array) {
     if (numero % 2 === 0) {
       evenNumbers.push(numero);
     }
@@ -36,6 +36,7 @@ const numerot = [
   23,
   24,
   25];
+
 const parillisetNumerot = even(numerot);
 
 console.log(numerot);
