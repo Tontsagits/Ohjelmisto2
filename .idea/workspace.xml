@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Module1/t10_some_probabilities/t10.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/t10_some_probabilities/t10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/t10_some_probabilities/t10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/t1/t1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/t1/t1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/t1/t1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/t1/t1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/t1/t1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +92,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/tonts/PyCharmProjects/Ohjelmisto2/Module1/t10_some_probabilities",
+    "last_opened_file_path": "C:/Users/tonts/PyCharmProjects/Ohjelmisto2/Module2/t1",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -105,11 +105,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module2\t1" />
       <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module1\t10_some_probabilities" />
       <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module1\t9_prime_numbers" />
       <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module1\t8" />
       <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module1\t7" />
-      <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module1\t6" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module2\t1" />
@@ -206,7 +206,7 @@
       <workItem from="1733331906333" duration="8597000" />
       <workItem from="1733581691260" duration="7487000" />
       <workItem from="1733595466005" duration="127000" />
-      <workItem from="1733652107079" duration="5948000" />
+      <workItem from="1733652107079" duration="7972000" />
     </task>
     <servers />
   </component>
