@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/JS-testing_5_Loc_Map/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-testing_5_Loc_Map/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-testing_5_Loc_Map/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,10 +19,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
         <option value="Python Script" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -205,6 +208,7 @@
       <workItem from="1733595466005" duration="127000" />
       <workItem from="1733652107079" duration="21716000" />
       <workItem from="1733679648449" duration="2701000" />
+      <workItem from="1733683155382" duration="1409000" />
     </task>
     <servers />
   </component>

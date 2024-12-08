@@ -1,0 +1,47 @@
+html {
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    background-color: darkgrey;
+}
+
+h1 {
+    width: 90%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 1em;
+    background-color: lightgrey;
+}
+
+p {
+    padding: 1em;
+
+}
+
+a {
+    background-color: dimgray;
+    color: whitesmoke;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 3rem;
+}
+
+a:hover {
+    background-color: lightgrey;
+    color: darkred;
+}
+
+footer {
+    margin: 10px;
+}
