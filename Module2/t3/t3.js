@@ -1,17 +1,22 @@
 'use strict';
 
+// alustetaan lista koirista
 const koirat = [];
 
+// kysytään kuuden koiran nimet
 for (let i = 0; i < 5; i++) {
-  koirat.push(prompt(`Kirjoita koiran ${i + 1}. nimi:`));
+  koirat.push(prompt(`Kirjoita ${i + 1}. koiran nimi:`, 'Koiran nimi tähän.'));
 }
 
-koirat.sort((a, b) => a - b);
+// järjestetään koirat aakkosjärjestykseen
+koirat.sort();
+// vaihdetaan järjestys päinvastoin
 koirat.reverse();
 
-// console.log(koirat);
-
+// jokaista koiraa kohden
 for (let koira of koirat) {
+  // luodaan muuttuja jossa HTML tagit ja tekstisisältö
   const koodi = `<li>${koira}</li>`;
-  document.querySelector('#kohde').innerHTML += koodi;
+  // lähetetään syntynyt muuttuja valitun HTML tagin sisällöksi
+  document.querySelector('#tag1').innerHTML += koodi;
 }

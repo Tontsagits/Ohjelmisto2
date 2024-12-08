@@ -16,5 +16,6 @@ for (let i = numbers.length; i > 0; i--) {
 
 numbersStr = numbersStr.slice(0, -2);
 
+// lisätään uusi HTML koodin tekstisisältö
 document.querySelector(
-    '#tag1').innerHTML = `Numbers in reverse order: ${numbersStr}`;
+    '#tag1').innerText = `Numbers in reverse order: ${numbersStr}`;

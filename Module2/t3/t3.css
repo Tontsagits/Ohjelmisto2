@@ -1,20 +1,43 @@
-.container {
-    width: 80%;
-    margin: auto;
-    background-color: darkgray;
+html {
+    font-family: Tahoma, Helvetica, sans-serif;
 }
 
-ul {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    background-color: darkgrey;
 }
 
 h1 {
-    padding: 3em
+    width: 90%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 1em;
+    background-color: lightgrey;
 }
 
-footer {
-    padding: 3em
+p {
+    padding: 1em;
+
+}
+
+a {
+    background-color: dimgray;
+    color: whitesmoke;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 3rem;
+}
+
+a:hover {
+    background-color: lightgrey;
+    color: darkred;
 }

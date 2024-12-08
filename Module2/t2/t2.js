@@ -24,5 +24,5 @@ for (let name of names) {
   console.log(name);
   namesStr += `<li>${name}</li>`;
 }
-// lisätään syntynyt teksti HTML koodiin
+// lisätään syntynyt HTMl koodia sisältävä teksti HTML elementtiin
 document.querySelector('#tag1').innerHTML = `${namesStr}`;
