@@ -1,20 +1,23 @@
 'use strict';
 
-const startYear = parseInt(
-    prompt('Anna aloitusvuosi (nnnn):', 'Vuosiluku tähän.'));
-const endYear = parseInt(
-    prompt('Anna lopetusvuosi (nnnn):', 'Vuosiluku tähän.'));
+const someIntNumber = parseInt(
+    prompt('Anna positiivinen kokonaisluku:', 'Numero tähän.'));
 
-let inputStrToHtml = '';
+// alussa oletetaan että on alkuluku
 
-/*
-for (let i = startYear; i <= endYear; i++) {
-  if ((i % 4 === 0 && i % 100 !== 0) || (i % 400 === 0)) {
-    inputStrToHtml += `<li>${i}</li>`;
-  } else {
-    console.log(`${i} is NOT a leap year.`);
+let isPrime = true;
+
+// jos jakolasku itseään pienemmällä menee tasan niin ei ole alkuluku
+
+for (let i = 2; i < someIntNumber; i++) {
+  if (someIntNumber % i === 0) {
+    isPrime = false;
   }
-  document.querySelector('#tag1').innerHTML = inputStrToHtml;
 }
-*/
 
+if (isPrime) {
+  document.querySelector('#tag1').innerHTML = `${someIntNumber} on alkuluku.`;
+} else {
+  document.querySelector(
+      '#tag1').innerHTML = `${someIntNumber} ei ole alkuluku.`;
+}
