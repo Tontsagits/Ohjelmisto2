@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module3/t1/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/t1/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module3/t1/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/t1/1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module3/t2/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/t2/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module3/t2/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/t2/2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module3/t3/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/t3/3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module3/t4/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/t4/4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module3/t5/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/t5/5.js" afterDir="false" />
-    </list>
+    <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -213,7 +204,7 @@
       <workItem from="1733652107079" duration="21716000" />
       <workItem from="1733679648449" duration="2701000" />
       <workItem from="1733683155382" duration="2491000" />
-      <workItem from="1733686192242" duration="2425000" />
+      <workItem from="1733686192242" duration="2577000" />
     </task>
     <servers />
   </component>
