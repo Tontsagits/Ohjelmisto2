@@ -93,15 +93,39 @@ const picArray = [
   },
 ];
 
+/*
+ Create multiple <article> elements that
+ contain heading, image, image caption and text
+ and populate them with the data from picArray.
+ Add the articles to the <section> element.
+*/
+
 // add your code here
 const section = document.querySelector('#pictures');
 
 for (const item of picArray) {
   const article = document.createElement('article');
   article.classList.add('card');
-  article.createElement('h1');
-  article.h1.innerText = item.title;
-  article.value = student.id;
-  article.innerText = student.name;
+
+  const h2 = document.createElement('h2');
+  h2.innerText = item.title;
+  article.appendChild(h2);
+
+  const figure = document.createElement('figure');
+  article.appendChild(figure);
+
+  const img = document.createElement('img');
+  img.src = item.image['medium'];
+  img.alt = item.title;
+  figure.appendChild(img);
+
+  const figcaption = document.createElement('figcaption');
+  figcaption.innerText = item.caption;
+  figure.appendChild(figcaption);
+
+  const p = document.createElement('p');
+  p.innerText = item.description;
+  article.appendChild(p);
+
   section.appendChild(article);
 }
