@@ -93,15 +93,10 @@ const picArray = [
   },
 ];
 
-/*
- Create multiple <article> elements that
- contain heading, image, image caption and text
- and populate them with the data from picArray.
- Add the articles to the <section> element.
-*/
-
-// add your code here
 const section = document.querySelector('#pictures');
+
+const dialog = document.querySelector('dialog');
+dialog.close();
 
 for (const item of picArray) {
   const article = document.createElement('article');
@@ -128,4 +123,25 @@ for (const item of picArray) {
   article.appendChild(p);
 
   section.appendChild(article);
+
+  article.addEventListener('click', function() {
+    const existingSpan = dialog.querySelector('span');
+    dialog.innerHTML = '';
+    dialog.appendChild(existingSpan);
+    const imgL = document.createElement('img');
+    imgL.src = item.image['large'];
+    imgL.alt = item.title;
+    dialog.appendChild(imgL);
+    dialog.showModal();
+  });
+
 }
+
+const sTE = document.querySelector('dialog span');
+sTE.addEventListener('click', function() {
+  dialog.close();
+  const imgL = dialog.querySelector('img');
+  if (imgL) {
+    dialog.removeChild(imgL);
+  }
+});
