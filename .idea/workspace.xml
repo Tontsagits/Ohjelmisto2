@@ -87,7 +87,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/tonts/PyCharmProjects/Ohjelmisto2/Module3/t11",
+    "last_opened_file_path": "C:/Users/tonts/PyCharmProjects/Ohjelmisto2/Module4/t2",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -100,11 +100,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module4\t2" />
+      <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module4\t1_tvmaze_api" />
       <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module3\t11" />
       <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\JS-Testing_6_DOM_BOM" />
       <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module2\t10_voting" />
-      <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module2\t8_str_from_array" />
-      <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module2\t7_more_dices" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tonts\PyCharmProjects\Ohjelmisto2\Module2\t1" />
@@ -206,7 +206,7 @@
       <workItem from="1733683155382" duration="2491000" />
       <workItem from="1733686192242" duration="2577000" />
       <workItem from="1733729508915" duration="23597000" />
-      <workItem from="1733842120466" duration="17661000" />
+      <workItem from="1733842120466" duration="18138000" />
     </task>
     <servers />
   </component>
