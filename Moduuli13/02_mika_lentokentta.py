@@ -40,9 +40,12 @@ def get_ap_info(ident: str):
     # fetchone returns data in tuple format
     # fetchall returns data in list format with items made of tuples
     results = dbcursor.fetchone()
-    # return ap name, ap municipality
-    # print(results)
-    return results
+    if dbcursor.rowcount < 1:
+        return f'404'
+    else:
+        # return ap name, ap municipality
+        # print(results)
+        return results
 
 # APIs
 
@@ -64,19 +67,19 @@ def airport():
         returncode = 400
         dataout = {
             'status': returncode,
-            "text": 'Error.'
+            "text": 'Bad Request.'
         }
     jsondataout = json.dumps(dataout)
     return Response(response=jsondataout, status=returncode, mimetype="application/json")
 
 @app.errorhandler(404)
 def page_not_found(errorcode):
-    vastaus = {
+    dataout = {
         "status" : errorcode,
         "text" : "Faulty endpoint."
     }
-    jsonvast = json.dumps(vastaus)
-    return Response(response=jsonvast, status=404, mimetype="application/json")
+    jsondataout = json.dumps(dataout)
+    return Response(response=jsondataout, status=errorcode, mimetype="application/json")
 
 
 # Main
