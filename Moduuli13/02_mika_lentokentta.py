@@ -41,7 +41,7 @@ def get_ap_info(ident: str):
     # fetchall returns data in list format with items made of tuples
     results = dbcursor.fetchone()
     # return ap name, ap municipality
-    print(results)
+    # print(results)
     return results
 
 # APIs
