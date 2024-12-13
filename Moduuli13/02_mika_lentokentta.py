@@ -27,6 +27,7 @@ dbconn = mysql.connector.connect(**dbconf)
 # request curson from connect
 dbcursor = dbconn.cursor()
 
+# setup Flask
 app = Flask(__name__)
 
 # functions
