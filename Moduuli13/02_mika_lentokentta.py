@@ -64,16 +64,16 @@ def airport():
         returncode = 400
         dataout = {
             'status': returncode,
-            "Text": 'Error.'
+            "text": 'Error.'
         }
     jsondataout = json.dumps(dataout)
     return Response(response=jsondataout, status=returncode, mimetype="application/json")
 
 @app.errorhandler(404)
-def page_not_found(virhekoodi):
+def page_not_found(errorcode):
     vastaus = {
-        "status" : "404",
-        "teksti" : "Virheellinen päätepiste"
+        "status" : errorcode,
+        "text" : "Faulty endpoint."
     }
     jsonvast = json.dumps(vastaus)
     return Response(response=jsonvast, status=404, mimetype="application/json")
