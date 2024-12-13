@@ -35,9 +35,12 @@ app = Flask(__name__)
 def get_ap_info(ident: str):
     sql = f"SELECT airport.name, airport.municipality FROM airport WHERE airport.ident = %s;"
     opt = f'{ident}'
-    dbcursor.execute(sql, (opt))
-    results = dbcursor.fetchall()
+    dbcursor.execute(sql, (opt,))
+    # fetchone returns data in tuple format
+    # fetchall returns data in list format with items made of tuples
+    results = dbcursor.fetchone()
     # return ap name, ap municipality
+    print(results)
     return results
 
 # APIs
@@ -53,8 +56,8 @@ def airport():
         dataout = {
             'status': returncode,
             "ICAO": ident,
-            "Name": result['name'],
-            "Municipality": result['municipality']
+            "Name": result[0],
+            "Municipality": result[1]
         }
     except ValueError:
         returncode = 400

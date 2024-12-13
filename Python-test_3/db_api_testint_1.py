@@ -1,45 +1,82 @@
 # DB API testing 1
 
-import mysql.connector
-from flask import Flask, request
+# imports
 
-app = Flask(__name__)
+import mysql.connector
+from flask import Flask, request, Response
+import json
+
+# global variables
 
 game_airports = {}
 
-# toimiva URL esim http://127.0.0.1:3000/airport?ident=<ident>
-@app.route('/airport')
-def airport():
-    args = request.args
-    ident = str(args.get("ident"))
+# db connection config
+dbconf = {
+    'host': 'localhost',
+    'port': 3306,
+    'database': 'flight_game',
+    'user': 'pilotti',
+    'password': 'pilotti12345',
+    'autocommit': True,
+    'collation': 'utf8mb4_unicode_ci'
+}
 
-    return str(ident)
+# connection to db
+dbconn = mysql.connector.connect(**dbconf)
 
+# request curson from connect
+dbcursor = dbconn.cursor()
 
-# database connection
-def database();
-    yhteys = mysql.connector.connect(
-        host="localhost",
-        port=3306,
-        database="rahtipeli",
-        user="pilotti",
-        password="pilotti12345",
-        autocommit=True,
-        collation='utf8mb4_unicode_ci'
-    )
+app = Flask(__name__)
 
+# functions
 
 # Function to get information of any given airport. Function return airport details (Name, city and country)
-def get_information(ident: str):
-    sql = f"SELECT airport.name, airport.municipality FROM airport WHERE airport.ident = '{ident}';"
-    kursori = yhteys.cursor()
-    kursori.execute(sql)
-    tulos = kursori.fetchall()
+def get_ap_info(ident: str):
+    sql = f"SELECT airport.name, airport.municipality FROM airport WHERE airport.ident = %s;"
+    opt = f'{ident}'
+    dbcursor.execute(sql, (opt,))
+    results = dbcursor.fetchone()
+    # return ap name, ap municipality
+    # print(results)
+    return results
 
-    for info in tulos:
-        # return ap name, ap municipality, ap country name
-        return (info[0], info[1])
+# APIs
 
+# toimiva URL esim http://127.0.0.1:3000/airport?ident=EFHK
+@app.route('/airport')
+def airport():
+    try:
+        args = request.args
+        ident = args.get("ident")
+        result = get_ap_info(ident)
+        returncode = 200
+        dataout = {
+            'status': returncode,
+            "ICAO": ident,
+            "Name": result[0],
+            "Municipality": result[1]
+        }
+    except ValueError:
+        returncode = 400
+        dataout = {
+            'status': returncode,
+            "Text": 'Error.'
+        }
+    jsondataout = json.dumps(dataout)
+    return Response(response=jsondataout, status=returncode, mimetype="application/json")
+
+@app.errorhandler(404)
+def page_not_found(virhekoodi):
+    vastaus = {
+        "status" : "404",
+        "teksti" : "Virheellinen päätepiste"
+    }
+    jsonvast = json.dumps(vastaus)
+    return Response(response=jsonvast, status=404, mimetype="application/json")
+
+
+# Main
 
 if __name__ == '__main__':
     app.run(use_reloader=True, host='127.0.0.1', port=3000)
