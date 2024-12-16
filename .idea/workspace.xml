@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c5e32408-c801-4d21-b0b2-9f1fae35b382" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python-test_3/db_api_testint_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python-test_3/db_api_testing_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-test_3/db_api_testing_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python-test_3/db_api_testing_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +77,7 @@
     "Python.clear_screen_testing.executor": "Run",
     "Python.clear_screen_testing_2.executor": "Run",
     "Python.creating_variable_names_dynamically.executor": "Run",
+    "Python.db_api_testing_1.executor": "Run",
     "Python.object-association-testing-2_temp_association.executor": "Run",
     "Python.object-inheritance-testing-2_multiinhe.executor": "Run",
     "Python.object-inheritance-testing.executor": "Run",
@@ -214,6 +215,8 @@
       <workItem from="1734033023732" duration="943000" />
       <workItem from="1734334241064" duration="403000" />
       <workItem from="1734338929747" duration="41000" />
+      <workItem from="1734344374828" duration="426000" />
+      <workItem from="1734357739541" duration="1417000" />
     </task>
     <servers />
   </component>
@@ -228,6 +231,7 @@
     <SUITE FILE_PATH="coverage/Ohjelmisto2$02_some_nice_weather_we_are_having.coverage" NAME="02_some_nice_weather_we_are_having Coverage Results" MODIFIED="1730449353680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli12" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$API_ENDPOINT_testing_4_Virhekoodit.coverage" NAME="API_ENDPOINT_testing_4_Virhekoodit Coverage Results" MODIFIED="1732131949204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$API_testing_1.coverage" NAME="API_testing_1 Coverage Results" MODIFIED="1732124345079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
+    <SUITE FILE_PATH="coverage/Ohjelmisto2$db_api_testing_1.coverage" NAME="db_api_testing_1 Coverage Results" MODIFIED="1734358657912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python-test_3" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$API_ENDPOINT_testing_3_parameters.coverage" NAME="API_ENDPOINT_testing_3_parameters Coverage Results" MODIFIED="1732130846011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$02_vauhti_kiihtyy.coverage" NAME="02_vauhti_kiihtyy Coverage Results" MODIFIED="1729771180374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Moduuli09" />
     <SUITE FILE_PATH="coverage/Ohjelmisto2$Print_F_string_formatting_testing.coverage" NAME="Print_F_string_formatting_testing Coverage Results" MODIFIED="1730023172605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-test-2" />

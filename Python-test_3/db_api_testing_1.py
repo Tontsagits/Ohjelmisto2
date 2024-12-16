@@ -1,4 +1,4 @@
-# DB API testing 1
+# Ohjelmisto 2 - Moduuli 13 - Tehtävä 2 - Mikä lentokenttä, backend versio
 
 # imports
 
@@ -8,7 +8,7 @@ import json
 
 # global variables
 
-game_airports = {}
+# game_airports = {}
 
 # db connection config
 dbconf = {
@@ -27,7 +27,9 @@ dbconn = mysql.connector.connect(**dbconf)
 # request curson from connect
 dbcursor = dbconn.cursor()
 
+# setup Flask
 app = Flask(__name__)
+
 
 # functions
 
@@ -36,10 +38,17 @@ def get_ap_info(ident: str):
     sql = f"SELECT airport.name, airport.municipality FROM airport WHERE airport.ident = %s;"
     opt = f'{ident}'
     dbcursor.execute(sql, (opt,))
+    # fetchone returns data in tuple format
+    # fetchall returns data in list format with items made of tuples
     results = dbcursor.fetchone()
-    # return ap name, ap municipality
-    # print(results)
-    return results
+    if dbcursor.rowcount < 1:
+        error = ('404', 'Page not found')
+        return error
+    else:
+        # return ap name, ap municipality
+        # print(results)
+        return results
+
 
 # APIs
 
@@ -61,19 +70,30 @@ def airport():
         returncode = 400
         dataout = {
             'status': returncode,
-            "Text": 'Error.'
+            "text": 'Bad Request.'
         }
     jsondataout = json.dumps(dataout)
     return Response(response=jsondataout, status=returncode, mimetype="application/json")
 
+
 @app.errorhandler(404)
-def page_not_found(virhekoodi):
-    vastaus = {
-        "status" : "404",
-        "teksti" : "Virheellinen päätepiste"
+def page_not_found(errorcode):
+    dataout = {
+        "status": errorcode,
+        "text": "Page not found."
     }
-    jsonvast = json.dumps(vastaus)
-    return Response(response=jsonvast, status=404, mimetype="application/json")
+    jsondataout = json.dumps(dataout)
+    return Response(response=jsondataout, status=errorcode, mimetype="application/json")
+
+
+@app.errorhandler(500)
+def internal_server_error(errorcode):
+    dataout = {
+        "status": errorcode,
+        "text": "Internal Server Error."
+    }
+    jsondataout = json.dumps(dataout)
+    return Response(response=jsondataout, status=errorcode, mimetype="application/json")
 
 
 # Main
